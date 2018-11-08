@@ -14,7 +14,8 @@ export default class MyName extends Component {
     return (
       <div
         id="cointainer"
-        className="container bg-dark h-100 align-items-center"
+        className="container h-100 align-items-center"
+        style={{ background: "#444444" }}
       >
         <div className=" container p-lg-5  mx-auto my-5 text-left">
           <h1 className="  display-6 font-weight-bold text-light">

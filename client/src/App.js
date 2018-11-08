@@ -14,6 +14,12 @@ class App extends Component {
         </div> */}
         <div className="height: 100% !important block">
           <MyName />
+          <MyName />
+          <MyName />
+          <MyName />
+          <MyName />
+          <MyName />
+          <MyName />
         </div>
       </Provider>
     );
