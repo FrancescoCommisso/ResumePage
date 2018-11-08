@@ -9,11 +9,10 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <div>
+        {/* <div className="bg-info d-inline-block align-items-center">
           <MyName />
-          <MyName />
-          <MyName />
-          <MyName />
+        </div> */}
+        <div className="height: 100% !important block">
           <MyName />
         </div>
       </Provider>
