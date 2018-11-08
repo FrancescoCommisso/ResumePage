@@ -4,17 +4,17 @@ import logo from "./logo.svg";
 import "./App.css";
 import store from "./store";
 import Customers from "./components/Customer/customers";
-
+import MyName from "./components/MyName";
 class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">My Future Website</h1>
-          </header>
-          <Customers />
+        <div>
+          <MyName />
+          <MyName />
+          <MyName />
+          <MyName />
+          <MyName />
         </div>
       </Provider>
     );

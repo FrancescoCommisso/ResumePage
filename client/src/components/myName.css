@@ -1,0 +1,11 @@
+.spaced-out {
+  color: white;
+  letter-spacing: 3px;
+}
+
+.faded {
+  opacity: 0.5;
+}
+.whiteBTN {
+  color: white;
+}
