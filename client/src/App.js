@@ -1,27 +1,34 @@
 import React, { Component } from "react";
 import { Provider } from "react-redux";
-import logo from "./logo.svg";
 import "./App.css";
 import store from "./store";
-import Customers from "./components/Customer/customers";
-import MyName from "./components/MyName";
+import { Nav } from "./components/nav";
+import { Navbar } from "./components/navbar.js";
+import Backgroundimg from "./components/backgroundimg.js";
+import BrowserRouter from "react-router-dom/BrowserRouter";
+import { HomePage } from "./components/homepage";
+import Description from "./components/description";
 class App extends Component {
   render() {
     return (
-      <Provider store={store}>
-        {/* <div className="bg-info d-inline-block align-items-center">
-          <MyName />
-        </div> */}
-        <div className="height: 100% !important block">
-          <MyName />
-          <MyName />
-          <MyName />
-          <MyName />
-          <MyName />
-          <MyName />
-          <MyName />
-        </div>
-      </Provider>
+      // <Provider store={store}>
+      //   <div className="height: 100% !important block">
+      //     <Nav />
+      //     {/* <Background /> */}
+      //   </div>
+      // </Provider>
+
+      // <BrowserRouter>
+      //   <div className="height: 100% !important block">
+      //     <Background />
+      //   </div>
+      // </BrowserRouter>
+
+      <div id="app-root">
+        <Navbar />
+        <Backgroundimg />
+        <Description />
+      </div>
     );
   }
 }

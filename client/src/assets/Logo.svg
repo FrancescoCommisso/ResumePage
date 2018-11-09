@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1014px" height="646px" viewBox="0 0 1014 646" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="684.653909" font-family="HelveticaNeue-Bold, Helvetica Neue" letter-spacing="11.5555553" font-weight="bold">
+        <g id="Logo">
+            <g id="BackgroundFancyBrackets" transform="translate(466.884831, 525.086783) rotate(174.000000) translate(-466.884831, -525.086783) translate(-126.615169, 81.086783)">
+                <text id="Red&lt;/&gt;" transform="translate(676.439634, 978.481878) rotate(-21.000000) translate(-676.439634, -978.481878) " fill="#F9186C">
+                    <tspan x="120.939634" y="829.481878">&lt;/&gt;</tspan>
+                </text>
+                <text id="Blue&lt;/&gt;" transform="translate(622.988056, 987.400164) rotate(-21.000000) translate(-622.988056, -987.400164) " fill="#0983FF">
+                    <tspan x="67.488056" y="838.400164">&lt;/&gt;</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

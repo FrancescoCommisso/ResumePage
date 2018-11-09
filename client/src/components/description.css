@@ -15,6 +15,10 @@ html {
   height: 100%;
 }
 
+.darkbg {
+  background: #444444;
+}
+
 .bg {
   /* The image used */
 
