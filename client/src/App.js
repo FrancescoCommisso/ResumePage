@@ -27,7 +27,6 @@ class App extends Component {
       <div id="app-root">
         <Navbar />
         <Backgroundimg />
-        <Description />
       </div>
     );
   }
