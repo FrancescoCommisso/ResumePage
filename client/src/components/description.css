@@ -10,6 +10,25 @@
   color: white;
 }
 
+a {
+  color: #f9186c;
+}
+
+ul.nav a:hover {
+  color: #f9186c !important;
+}
+
+.navbar-nav > .active > a {
+  color: #f9186c;
+}
+
+nav .navbar-nav li a:hover {
+  color: #2983ff !important;
+}
+.blue-red {
+  color: #2983ff;
+  text-shadow: -3px -3px 0 #e9186c;
+}
 body,
 html {
   height: 100%;
@@ -17,6 +36,14 @@ html {
 
 .darkbg {
   background: #444444;
+}
+
+/* .btn, .btn:hover, .btn:active, .btn:visited {
+  background-color: #8064A2 !important;
+} */
+.btn {
+  border-color: #2983ff !important;
+  color: #2983ff !important;
 }
 
 .bg {

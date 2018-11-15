@@ -15,6 +15,6 @@ const divStyle1 = {
 
 export default class Backgroundimg extends Component {
   render() {
-    return <img className="" src={imgMyimageexample} />;
+    return <img className="container" src={imgMyimageexample} />;
   }
 }

@@ -1,25 +1,62 @@
 import React, { Component } from "react";
 import "./description.css";
-const imgMyimageexample = require("../assets/Logo1240x800.svg");
+import { Navbar } from "./navbar";
+import { Random } from "react-animated-text";
+import { Animated } from "react-animated-css";
+const imgMyimageexample = require("../assets/bracketsStroke.svg");
 
-const style1 = {
-  position: "absolute"
+const tag = {
+  height: "500px",
+  backgroundSize: "contain",
+  backgroundRepeat: "no-repeat",
+  backgroundImage: `url(${imgMyimageexample})`,
+  backgorundPosition: "center"
+
+  // height:"800px"
+};
+const tag1 = {
+  position: "absolute",
+  bottom: "0",
+  right: "0"
+  // height:"800px"
 };
 
 export default class Description extends Component {
-  state = {};
+  state = {
+    animationPaused: false,
+    red: ""
+  };
+
+  setClass = () => {};
+
+  componentDidMount() {
+    this.setState({
+      animationPaused: true
+    });
+  }
 
   render() {
     return (
       <div
         id="description-root"
-        style={style1}
-        className="p-lg-5 mx-auto my-5 text-center"
+        style={tag}
+        className="p-lg-5  my-5 text-right"
       >
-        <h1 className=" display-6 font-weight-bold text-light">
-          My name is <br /> Francesco, <br />I make software.
+        <br />
+        <br />
+        <br />
+        <br />
+        <h1 className=" display-4 font-weight-bold text-light">My name is </h1>
+        <h1 className=" d-inline display-4 font-weight-bold  blue-red">
+          Francesco
         </h1>
-        <p class="spaced-out faded">Front End / Back End / Cloud Solutions</p>
+        <h1 className=" d-inline display-4 font-weight-bold text-light">,</h1>
+        <h1 className=" display-4 font-weight-bold text-light">
+          I make software.
+        </h1>
+        <p className="spaced-out faded">
+          Front End Cock / Back End Bitches / (v a p e )Cloud Solutions
+        </p>
         <button class="btn btn-outline-light  whiteBTN">Contact Me</button>
       </div>
     );

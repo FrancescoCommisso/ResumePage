@@ -8,6 +8,9 @@ import Backgroundimg from "./components/backgroundimg.js";
 import BrowserRouter from "react-router-dom/BrowserRouter";
 import { HomePage } from "./components/homepage";
 import Description from "./components/description";
+import BackgroundImage from "./components/backgroundImage.js";
+import DescriptionFunny from "./components/descriptionfunny";
+import TestSvg from "./components/testsvg.js";
 class App extends Component {
   render() {
     return (
@@ -25,8 +28,11 @@ class App extends Component {
       // </BrowserRouter>
 
       <div id="app-root">
+        {/* <Navbar />
+        <Navbar>
+        <BackgroundImage> */}
         <Navbar />
-        <Backgroundimg />
+        <Description />
       </div>
     );
   }

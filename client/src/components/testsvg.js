@@ -1,0 +1,131 @@
+import React, { Component } from "react";
+import "./testsvg.css";
+const imgMyimageexample = require("../assets/bracketsStroke.svg");
+
+export default class TestSvg extends Component {
+  state = { red: "" };
+
+  setClass = () => {
+    this.setState({ red: "red" });
+  };
+
+  render() {
+    return (
+      <svg
+        width="1000px"
+        height="564px"
+        viewBox="0 0 300 264"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>Group</title>
+        <desc>Created with Sketch.</desc>
+        <defs>
+          <filter
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%"
+            filterUnits="objectBoundingBox"
+            id="filter-1"
+          >
+            <feOffset
+              dx="14"
+              dy="23"
+              in="SourceAlpha"
+              result="shadowOffsetInner1"
+            />
+            <feGaussianBlur
+              stdDeviation="1.5"
+              in="shadowOffsetInner1"
+              result="shadowBlurInner1"
+            />
+            <feComposite
+              in="shadowBlurInner1"
+              in2="SourceAlpha"
+              operator="arithmetic"
+              k2="-1"
+              k3="1"
+              result="shadowInnerInner1"
+            />
+            <feColorMatrix
+              values="0 0 0 0 0.160784314   0 0 0 0 0.992156863   0 0 0 0 0.282352941  0 0 0 0.7 0"
+              in="shadowInnerInner1"
+              type="matrix"
+              result="shadowMatrixInner1"
+            />
+            <feMerge>
+              <feMergeNode in="SourceGraphic" />
+              <feMergeNode in="shadowMatrixInner1" />
+            </feMerge>
+          </filter>
+          <filter
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%"
+            filterUnits="objectBoundingBox"
+            id="filter-2"
+          >
+            <feOffset
+              dx="14"
+              dy="23"
+              in="SourceAlpha"
+              result="shadowOffsetInner1"
+            />
+            <feGaussianBlur
+              stdDeviation="1.5"
+              in="shadowOffsetInner1"
+              result="shadowBlurInner1"
+            />
+            <feComposite
+              in="shadowBlurInner1"
+              in2="SourceAlpha"
+              operator="arithmetic"
+              k2="-1"
+              k3="1"
+              result="shadowInnerInner1"
+            />
+            <feColorMatrix
+              values="0 0 0 0 0.160784314   0 0 0 0 0.992156863   0 0 0 0 0.282352941  0 0 0 0.7 0"
+              in="shadowInnerInner1"
+              type="matrix"
+              result="shadowMatrixInner1"
+            />
+            <feMerge>
+              <feMergeNode in="SourceGraphic" />
+              <feMergeNode in="shadowMatrixInner1" />
+            </feMerge>
+          </filter>
+        </defs>
+        <g
+          id="Welcome"
+          stroke="none"
+          stroke-width="1"
+          fill="#FFFFFF"
+          fill-rule="evenodd"
+        >
+          <g
+            id="Tablet-Portrait"
+            transform="translate(-108.000000, -352.000000)"
+            stroke="#979797"
+            fill="#123456"
+          >
+            <g id="Group" transform="translate(209.000000, 353.000000)">
+              <path
+                d="M258.557746,115.5 L218.557746,118 C218.557746,118 206.048891,73.6233282 176.557746,83 C147.066601,92.3766718 121.057747,83.0000006 121.057746,149 C121.057744,214.999999 121.057747,204.999997 164.057746,218 C207.057744,231.000003 221.057746,177.5 221.057746,177.5 L180.557746,176.5 C180.557746,176.5 105.115492,110.5 177.557746,143.5 C250,176.5 297.557739,138.5 297.557739,138.5 L262.057746,249 C262.057746,249 250.290759,277.750962 242.557739,249 C234.824719,220.249038 242.557739,176.5 242.557739,176.5 C242.557739,176.5 206.057739,264.5 164.057744,258.499997 C122.05775,252.499994 65.5577456,192.500003 75.0577458,152 C84.557746,111.499997 106.057747,42 168.557746,42 C231.057744,42 258.557746,115.5 258.557746,115.5 Z"
+                id="Path-23"
+                filter="url(#filter-1)"
+              />
+              <path
+                d="M184.557746,73.5 L144.557746,76 C144.557746,76 132.048891,31.6233282 102.557746,41 C73.0666006,50.3766718 47.0577472,41.0000006 47.0577458,107 C47.0577444,172.999999 47.0577472,162.999997 90.0577458,176 C133.057744,189.000003 147.057746,135.5 147.057746,135.5 L106.557746,134.5 C106.557746,134.5 31.1154916,68.5 103.557746,101.5 C176,134.5 223.557739,96.5 223.557739,96.5 L188.057746,207 C188.057746,207 176.290759,235.750962 168.557739,207 C160.824719,178.249038 168.557739,134.5 168.557739,134.5 C168.557739,134.5 132.057739,222.5 90.0577441,216.499997 C48.0577497,210.499994 -8.44225439,150.500003 1.05774581,110 C10.557746,69.4999968 32.0577472,2.33461037e-08 94.5577458,0 C157.057744,-2.33461037e-08 184.557746,73.5 184.557746,73.5 Z"
+                id="Path-23"
+                filter="url(#filter-2)"
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+    );
+  }
+}
