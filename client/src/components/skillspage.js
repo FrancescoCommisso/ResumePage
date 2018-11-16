@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./skillspage.css";
 import { SkillsButtons } from "./skillsbuttons.js";
+import Logos from "./logos";
 
 export class SkillsPage extends Component {
   state = {};
@@ -11,6 +12,7 @@ export class SkillsPage extends Component {
           <h1 className="title">Full Stack Skills</h1>
         </div>
         <SkillsButtons />
+        <Logos />
       </div>
     );
   }
