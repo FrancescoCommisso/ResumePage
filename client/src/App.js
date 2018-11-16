@@ -11,28 +11,17 @@ import Description from "./components/description";
 import BackgroundImage from "./components/backgroundImage.js";
 import DescriptionFunny from "./components/descriptionfunny";
 import TestSvg from "./components/testsvg.js";
+import { SkillsPage } from "./components/skillspage";
 class App extends Component {
   render() {
     return (
-      // <Provider store={store}>
-      //   <div className="height: 100% !important block">
-      //     <Nav />
-      //     {/* <Background /> */}
-      //   </div>
-      // </Provider>
-
-      // <BrowserRouter>
-      //   <div className="height: 100% !important block">
-      //     <Background />
-      //   </div>
-      // </BrowserRouter>
-
       <div id="app-root">
-        {/* <Navbar />
-        <Navbar>
-        <BackgroundImage> */}
         <Navbar />
-        <Description />
+        <br />
+        <br />
+        <br />
+        <HomePage />
+        <SkillsPage />
       </div>
     );
   }
