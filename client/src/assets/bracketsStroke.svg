@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="837px" height="529px" viewBox="0 0 837 529" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-302.000000, -248.000000)">
+            <g id="Group-3" transform="translate(302.000000, 248.000000)">
+                <g id="Group-2" transform="translate(0.000000, 13.000000)">
+                    <g id="Group" transform="translate(0.000000, 159.000000)">
+                        <path d="M205.5,1 L234.5,58 L87,226.5 L310.5,206 L339,263.5 L31.5,292.5 L0,234.5 L198,8" id="Path-1" fill="#F9176C"></path>
+                        <path d="M198,8 L205,0 L206,2" id="Path-2"></path>
+                    </g>
+                    <g id="Group" transform="translate(630.500000, 146.500000) scale(-1, -1) translate(-630.500000, -146.500000) translate(461.000000, 0.000000)">
+                        <path d="M205.5,1 L234.5,58 L87,226.5 L310.5,206 L339,263.5 L31.5,292.5 L0,234.5 L198,8" id="Path-1" fill="#FA176C"></path>
+                        <path d="M198,8 L205,0 L206,2" id="Path-2"></path>
+                    </g>
+                    <path d="M371,65.5 L428,36 L480,486.5 L422.5,515.5 L371,65.5 Z" id="Path-3" stroke="#F9176C" fill="#F9176C"></path>
+                </g>
+                <g id="Group-2" transform="translate(37.000000, 0.000000)">
+                    <g id="Group" transform="translate(0.000000, 159.000000)">
+                        <path d="M205.5,1 L234.5,58 L87,226.5 L310.5,206 L339,263.5 L31.5,292.5 L0,234.5 L198,8" id="Path-1" fill="#0983FF"></path>
+                        <path d="M198,8 L205,0 L206,2" id="Path-2"></path>
+                    </g>
+                    <g id="Group" transform="translate(630.500000, 146.500000) scale(-1, -1) translate(-630.500000, -146.500000) translate(461.000000, 0.000000)">
+                        <path d="M205.5,1 L234.5,58 L87,226.5 L310.5,206 L339,263.5 L31.5,292.5 L0,234.5 L198,8" id="Path-1" fill="#0983FF"></path>
+                        <path d="M198,8 L205,0 L206,2" id="Path-2"></path>
+                    </g>
+                    <path d="M371,65.5 L428,36 L480,486.5 L422.5,515.5 L371,65.5 Z" id="Path-3" stroke="#0983FF" fill="#0983FF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

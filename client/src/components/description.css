@@ -1,0 +1,69 @@
+.spaced-out {
+  color: white;
+  letter-spacing: 3px;
+}
+
+.faded {
+  opacity: 0.5;
+}
+.whiteBTN {
+  color: #000000;
+}
+
+a {
+  color: #f9186c;
+}
+
+ul.nav a:hover {
+  color: #f9186c !important;
+}
+
+.navbar-nav > .active > a {
+  color: #f9186c;
+}
+
+nav .navbar-nav li a:hover {
+  color: #2983ff !important;
+}
+.blue-red {
+  color: #2983ff;
+  text-shadow: -3px -3px 0 #f9186c;
+  font-size: 30px;
+}
+.black-red {
+  color: #f9186c;
+  text-shadow: -5px 5px 0 #000000;
+}
+body,
+html {
+  height: 100%;
+}
+
+.darkbg {
+  background: #444444;
+}
+
+/* .btn, .btn:hover, .btn:active, .btn:visited {
+  background-color: #8064A2 !important;
+} */
+.btn {
+  border-color: transparent;
+  border-radius: 0%;
+  background-color: #000000;
+  color: #f9186c !important;
+}
+.btn :hover {
+  border-color: white;
+}
+
+.bg {
+  /* The image used */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

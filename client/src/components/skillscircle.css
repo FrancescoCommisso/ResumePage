@@ -1,0 +1,19 @@
+#top {
+  fill: #ffffff;
+}
+
+.filler {
+  fill: #ffffff;
+}
+
+.mybutton :focus {
+  outline: none;
+}
+.btn-outline-light :focus,
+.btn-outline-light :active:focus,
+.btn-outline-light .active:focus,
+.btn-outline-light .focus,
+.btn-outline-light :active.focus,
+.btn-outline-light .active.focus {
+  outline: none;
+}

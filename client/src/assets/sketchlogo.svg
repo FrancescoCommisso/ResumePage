@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 79 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>diamond</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MyVersion-Desktop-HD" transform="translate(-910.000000, -596.000000)">
+            <g id="Group-18" transform="translate(335.000000, 589.000000)">
+                <g id="diamond" transform="translate(575.542717, 7.102696)">
+                    <g id="Layer_1">
+                        <path d="M54.5652311,20.1430526 L38.788043,65.5522934 L77.5760861,20.1430526 L54.5652311,20.1430526 Z" id="Shape" fill="#FFE182"></path>
+                        <g id="Group" fill="#FFCD73">
+                            <path d="M16.0502195,0.109537248 L0,20.1430526 L23.010855,20.1430526 L16.0502195,0.109537248 Z" id="Shape"></path>
+                            <path d="M54.5652311,20.1430526 L77.5760861,20.1430526 L61.5258666,0.109537248 L54.5652311,20.1430526 Z" id="Shape"></path>
+                            <path d="M54.5652311,20.1430526 L38.788043,0.109537248 L23.010855,20.1430526 L54.5652311,20.1430526 Z" id="Shape"></path>
+                        </g>
+                        <path d="M38.788043,0.109537248 L16.0502195,0.109537248 L23.010855,20.1430526 L38.788043,0.109537248 Z" id="Shape" fill="#FFAA64"></path>
+                        <path d="M61.5258666,0.109537248 L38.788043,0.109537248 L54.5652311,20.1430526 L61.5258666,0.109537248 Z" id="Shape" fill="#FFE182"></path>
+                        <path d="M23.010855,20.1430526 L38.788043,65.5522934 L54.5652311,20.1430526 L23.010855,20.1430526 Z" id="Shape" fill="#FFAA64"></path>
+                        <path d="M0,20.1430526 L38.788043,65.5522934 L23.010855,20.1430526 L0,20.1430526 Z" id="Shape" fill="#FF8C5A"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
