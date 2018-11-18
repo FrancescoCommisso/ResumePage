@@ -7,7 +7,7 @@
   opacity: 0.5;
 }
 .whiteBTN {
-  color: white;
+  color: #000000;
 }
 
 a {
@@ -27,7 +27,12 @@ nav .navbar-nav li a:hover {
 }
 .blue-red {
   color: #2983ff;
-  text-shadow: -3px -3px 0 #e9186c;
+  text-shadow: -3px -3px 0 #f9186c;
+  font-size: 30px;
+}
+.black-red {
+  color: #f9186c;
+  text-shadow: -5px 5px 0 #000000;
 }
 body,
 html {
@@ -42,8 +47,13 @@ html {
   background-color: #8064A2 !important;
 } */
 .btn {
-  border-color: #2983ff !important;
-  color: #2983ff !important;
+  border-color: transparent;
+  border-radius: 0%;
+  background-color: #000000;
+  color: #f9186c !important;
+}
+.btn :hover {
+  border-color: white;
 }
 
 .bg {

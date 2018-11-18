@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./description.css";
+import "./navbar.css";
 const navStyle = {
   backgroundColor: "#000000",
   borderBottom: "1px solid #2983ff"
@@ -15,10 +16,11 @@ export class Navbar extends Component {
     return (
       <div className="container w-100">
         <nav
+          id="navbar"
           className="navbar fixed-top navbar-expand-lg navbar-dark"
           style={navStyle}
         >
-          <a className="blue-red display-4 font-weight-bold" href="#">
+          <a className="blue-red font-weight-bold" href="#">
             F
           </a>
 
