@@ -35,15 +35,17 @@ export default class Description extends Component {
           <br />
           <br />
           <br />
-          <h1 className=" display-4 font-weight-bold text-light">
+          {/* <h1 className=" display-4 font-weight-bold text-light">
             My name is{" "}
-          </h1>
+          </h1> */}
           <h1 className=" d-inline display-4 font-weight-bold  black-red">
             Francesco
           </h1>
           <h1 className=" d-inline display-4 font-weight-bold text-light">,</h1>
           <h1 className=" display-4 font-weight-bold text-light">
-            I make software.
+            Full Stack
+            <br />
+            Developer.
           </h1>
           <p className="spaced-out faded">
             Front End / Back End / Cloud Solutions

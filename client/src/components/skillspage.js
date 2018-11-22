@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./skillspage.css";
 import { SkillsButtons } from "./skillsbuttons.js";
 import Logos from "./logos";
+import { Stats } from "./stats.js";
 
 import reactLogo from "../assets/reactLogo.svg";
 import angularLogo from "../assets/angularlogo.svg";
@@ -16,26 +17,38 @@ import appengineLogo from "../assets/appenginelogo.svg";
 import firebaseLogo from "../assets/firebase.svg";
 
 const frontEndLogos = [
-  reactLogo,
-  angularLogo,
-  cssLogo,
-  htmlLogo,
-  sketchLogo,
-  jsLogo
+  { logo: htmlLogo, id: "1" },
+  { logo: cssLogo, id: "2" },
+  { logo: jsLogo, id: "3" },
+  { logo: reactLogo, id: "4" },
+  { logo: angularLogo, id: "5" },
+  { logo: sketchLogo, id: "6" },
+  { logo: aiLogo, id: "7" }
 ];
-
-const backEndLogos = [nodeLogo, javaLogo];
-const cloudLogos = [firebaseLogo, appengineLogo];
+const backEndLogos = [{ logo: nodeLogo, id: "8" }, { logo: javaLogo, id: "9" }];
+const cloudLogos = [
+  { logo: firebaseLogo, id: "10" },
+  { logo: appengineLogo, id: "11" }
+];
 
 export class SkillsPage extends Component {
   state = {
-    selected: "frontend"
+    selected: "frontend",
+    selectedSkill: "1"
+  };
+
+  handleSelectedStack = stack => {
+    console.log("state: " + stack);
+    this.setState({
+      selected: stack
+    });
+    this.chooseLogo();
   };
 
   handleSelectedSkill = skill => {
-    console.log("state: " + skill);
+    console.log("skill passed from skillbutton " + skill);
     this.setState({
-      selected: skill
+      selectedSkill: skill
     });
     this.chooseLogo();
   };
@@ -52,7 +65,7 @@ export class SkillsPage extends Component {
       <div
         style={{
           backgroundColor: "#1B1C1D",
-          height: "800px"
+          paddingBottom: "20px"
         }}
         className=""
         id="skillspage_root"
@@ -61,11 +74,15 @@ export class SkillsPage extends Component {
           <br />
         </div>
 
-        <div className="my-5 " id="title_div">
+        <div className="my-5 text-center " id="title_div">
           <h1 className="title1  display-4 text-light ">Skills</h1>
         </div>
-        <SkillsButtons onSelected={this.handleSelectedSkill} />
-        <Logos logos={this.chooseLogo()} />
+        <SkillsButtons onSelected={this.handleSelectedStack} />
+        <Logos
+          onSelected={this.handleSelectedSkill}
+          logos={this.chooseLogo()}
+        />
+        <Stats skill={this.state.selectedSkill} />
       </div>
     );
   }
