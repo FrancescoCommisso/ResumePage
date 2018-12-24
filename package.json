@@ -12,12 +12,17 @@
   },
   "author": "Brad Traversy & Gregory Assasie",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "react-alice-carousel": "^1.13.0"
+  },
   "dependencies": {
     "concurrently": "^3.5.1",
     "express": "^4.16.2",
     "nodemon": "^1.14.7",
+    "pure-react-carousel": "^1.17.0",
     "react-animated-css": "^1.0.4",
-    "react-animated-text": "^0.1.3"
+    "react-animated-text": "^0.1.3",
+    "react-responsive-carousel": "^3.1.45",
+    "react-router-dom": "^4.3.1"
   }
 }

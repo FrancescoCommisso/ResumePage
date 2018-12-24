@@ -1,26 +1,52 @@
 import React, { Component } from "react";
-import { Logo } from "./logo.js";
+import { LogoButton } from "./logobutton.js";
+
+const styles = {
+  transition: "all 0.1s ease-in"
+};
 
 export class Logos extends Component {
   constructor(props) {
     super(props);
-    // this.makeLogos = this.makeLogos.bind(this);
+    this.state = {
+      opacity: 0
+    };
   }
 
-  // state = {
-  //   logos: this.props.logos
-  // };
+  componentDidMount() {
+    console.log("did mount");
+    this.setState({
+      opacity: 1
+    });
+  }
 
-  makeLogos = () => {
-    const logos = this.state.map(logo => <Logo logo={logo} />);
+  onHide = () => {
+    if (this.state.opacity === 0) {
+      this.setState({
+        opacity: 1
+      });
+    } else {
+      this.setState({
+        opacity: 0
+      });
+    }
   };
 
   render() {
     return (
-      <div className="container-fluid text-center w-75" id="logos_root">
-        <div className="row align-baseline">
+      <div
+        style={{ ...styles, opacity: this.state.opacity }}
+        className="container-fluid  my-5  w-75  text-center"
+        id="logos_root"
+      >
+        <div className="row bg-infoalign-baseline">
           {this.props.logos.map(logo => (
-            <Logo logo={logo} />
+            <LogoButton
+              icon={logo.logo}
+              onSelected={this.props.onSelected}
+              skillID={logo.id}
+              key={logo.id}
+            />
           ))}
         </div>
       </div>

@@ -1,0 +1,18 @@
+.subtitle-text {
+  /* Beautiful, intuitive: */
+  font-family: HelveticaNeue-Light;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #909;
+}

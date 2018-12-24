@@ -9,6 +9,11 @@
 .mybutton :focus {
   outline: none;
 }
+
+.btn:hover {
+  background-color: white;
+}
+
 .btn-outline-light :focus,
 .btn-outline-light :active:focus,
 .btn-outline-light .active:focus,

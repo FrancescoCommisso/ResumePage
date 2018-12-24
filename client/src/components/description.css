@@ -10,6 +10,22 @@
   color: #000000;
 }
 
+mytitle {
+  font-weight: 300;
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
+mytitle:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 1px solid red;
+}
+
 a {
   color: #f9186c;
 }
@@ -32,7 +48,8 @@ nav .navbar-nav li a:hover {
 }
 .black-red {
   color: #f9186c;
-  text-shadow: -5px 5px 0 #000000;
+  stroke: aliceblue;
+  text-shadow: -3px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
 }
 body,
 html {

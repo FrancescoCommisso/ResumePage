@@ -1,0 +1,68 @@
+{
+  "1": {
+    "id": "CSS",
+    "icon": "assets/csslogo.svg",
+    "description": "Comfortable with writing custom CSS, as well as using third party libraries such as Bootstrap 4.",
+    "experience": "3"
+  },
+  "2": {
+    "id": "HTML",
+    "icon": "assets/htmllogo.svg",
+    "description": "HTML is HTML... Pretty straight forward.",
+    "experience": "4"
+  },
+  "3": {
+    "id": "Javascript",
+    "icon": "assets/csslogo.svg",
+    "description": "Thorough understanding of Javascript and ES6 design patterns.",
+    "experience": "3"
+  },
+  "4": {
+    "id": "React",
+    "icon": "assets/csslogo.svg",
+    "description": "Comfortable using React to build interactive frontends with modular components. Usually use third party tools like Redux to better manage my components' states.",
+    "experience": "3"
+  },
+  "5": {
+    "id": "Angular",
+    "icon": "assets/csslogo.svg",
+    "description": "Currently working to familiarize myself better with Angular.",
+    "experience": "1"
+  },
+  "6": {
+    "id": "Sketch",
+    "icon": "assets/csslogo.svg",
+    "description": "Highly skilled in all things Sketch.",
+    "experience": "5"
+  },
+  "7": {
+    "id": "Illustrator",
+    "icon": "assets/csslogo.svg",
+    "description": "Primarily use Illustrator to build and edit fancy SVGs for my front ends.",
+    "experience": "3"
+  },
+  "8": {
+    "id": "Node.js",
+    "icon": "assets/csslogo.svg",
+    "description": "Node.js with Express is my backend environment of choice at the moment.",
+    "experience": "3"
+  },
+  "9": {
+    "id": "Java",
+    "icon": "assets/csslogo.svg",
+    "description": "Comfortable writing custom CSS classes with eas, and using third party libraries such as BootStrap",
+    "experience": "2"
+  },
+  "10": {
+    "id": "Firebase",
+    "icon": "assets/csslogo.svg",
+    "description": "Comfortable writing custom CSS classes with eas, and using third party libraries such as BootStrap",
+    "experience": "4"
+  },
+  "11": {
+    "id": "App Engine",
+    "icon": "assets/csslogo.svg",
+    "description": "Comfortable writing custom CSS classes with eas, and using third party libraries such as BootStrap",
+    "experience": "1"
+  }
+}

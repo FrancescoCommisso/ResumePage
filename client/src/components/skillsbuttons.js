@@ -6,7 +6,8 @@ const backEndEndIcon = require("../assets/serverpink.svg");
 const cloudEndEndIcon = require("../assets/cloudpink.svg");
 
 const style = {
-  marginBottom: "50px"
+  marginBottom: "50px",
+  marginTop: "50px"
 };
 
 export class SkillsButtons extends Component {
@@ -31,8 +32,12 @@ export class SkillsButtons extends Component {
 
   render() {
     return (
-      <div className="container-fluid" style={style} id="skillsbuttons_root">
-        <div class="row ">
+      <div
+        className="container-fluid text-center"
+        style={{ marginTop: "40px" }}
+        id="skillsbuttons_root"
+      >
+        <div class="text-center row">
           <div class="col text-center  text-light ">
             <SkillsCircle
               selected={this.state.frontend}

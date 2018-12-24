@@ -1,28 +1,28 @@
 import React, { Component } from "react";
-import { Provider } from "react-redux";
 import "./App.css";
-import store from "./store";
-import { Nav } from "./components/nav";
 import { Navbar } from "./components/navbar.js";
-import Backgroundimg from "./components/backgroundimg.js";
-import BrowserRouter from "react-router-dom/BrowserRouter";
-import { HomePage } from "./components/homepage";
-import Description from "./components/description";
-import BackgroundImage from "./components/backgroundImage.js";
-import DescriptionFunny from "./components/descriptionfunny";
-import TestSvg from "./components/testsvg.js";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { SkillsPage } from "./components/skillspage";
+import { HomePage } from "./components/homepage";
+import Footer from "./components/footer";
+import ContactPage from "./components/contactpage";
+import About from "./components/aboutpage";
+import ProjectsPage from "./components/projectspage";
+
 class App extends Component {
   render() {
     return (
-      <div id="app-root">
-        <Navbar />
-        <br />
-        <br />
-        <br />
-        <HomePage />
-        <SkillsPage />
-      </div>
+      <BrowserRouter>
+        <div>
+          <Navbar />
+          <HomePage />
+          <SkillsPage />
+          <About />
+          <ProjectsPage />
+          <ContactPage />
+          <Footer />
+        </div>
+      </BrowserRouter>
     );
   }
 }
