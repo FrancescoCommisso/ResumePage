@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Description from "./description";
+import DescriptionBrackets from "./descriptionbrackets";
 
 const style1 = {
   position: "relative",
@@ -10,7 +11,7 @@ export class HomePage extends Component {
   state = {};
   render() {
     return (
-      <div>
+      <div className="bg-info">
         <div style={style1}>
           <Description />
         </div>

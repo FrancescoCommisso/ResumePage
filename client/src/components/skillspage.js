@@ -17,11 +17,10 @@ import appengineLogo from "../assets/appenginelogo.svg";
 import firebaseLogo from "../assets/firebase.svg";
 
 const frontEndLogos = [
-  { logo: htmlLogo, id: "1" },
-  { logo: cssLogo, id: "2" },
+  { logo: htmlLogo, id: "2" },
+  { logo: cssLogo, id: "1" },
   { logo: jsLogo, id: "3" },
   { logo: reactLogo, id: "4" },
-  { logo: angularLogo, id: "5" },
   { logo: sketchLogo, id: "6" },
   { logo: aiLogo, id: "7" }
 ];
@@ -63,19 +62,21 @@ export class SkillsPage extends Component {
   render() {
     return (
       <div
-        style={{
-          backgroundColor: "#1B1C1D",
-          paddingBottom: "20px"
-        }}
-        className=""
+        style={{ minHeight: "800px", backgroundColor: "#252627" }}
         id="skillspage_root"
       >
-        <div className=" container-fluid ">
-          <br />
-        </div>
+        <br />
+        <br />
+        <br />
 
-        <div className="my-5 text-center " id="title_div">
+        <a id="skills" />
+        <div className=" container-fluid " />
+
+        <div className=" text-center " id="title_div">
           <h1 className="title1  display-4 text-light ">Skills</h1>
+          <p className="subtitle-text text-light ">
+            What I use to make cool things
+          </p>{" "}
         </div>
         <SkillsButtons onSelected={this.handleSelectedStack} />
         <Logos

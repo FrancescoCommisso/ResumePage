@@ -3,12 +3,14 @@ import { Stardiv } from "./stardiv";
 
 import skillsObject from "../assets/skills.json";
 
+const pSize = {};
+
 export class Stats extends Component {
   constructor(props) {
     super(props);
   }
 
-  state = { skill: "2" };
+  state = { skill: "1" };
 
   componentWillReceiveProps(nextProps) {
     if (nextProps.skill !== this.props.skill) {
@@ -30,7 +32,7 @@ export class Stats extends Component {
         </div>
 
         <div id="stats-desc-div">
-          <p className="text-light py-2 my-2">
+          <p style={{ color: "white" }} className="lead text-light py-2 my-2">
             {skillsObject[this.state.skill].description}
           </p>
         </div>

@@ -20,7 +20,7 @@ export class LogoButton extends Component {
     return (
       <button
         onClick={() => this.props.onSelected(this.state.id)}
-        className=" btn btn-outline-light rounded-circle d-flex text-center align-middle"
+        className="btn btn-outline-light rounded-circle d-flex text-center align-middle"
         style={style}
       >
         <img className="align-middle mx-auto " src={this.props.icon} />

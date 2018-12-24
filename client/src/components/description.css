@@ -48,7 +48,8 @@ nav .navbar-nav li a:hover {
 }
 .black-red {
   color: #f9186c;
-  text-shadow: -5px 5px 0 #000000;
+  stroke: aliceblue;
+  text-shadow: -3px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
 }
 body,
 html {
