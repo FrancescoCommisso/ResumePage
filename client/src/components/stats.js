@@ -1,13 +1,11 @@
 import React, { Component } from "react";
-import { Stardiv } from "./stardiv";
-
+import Stardiv from "./stardiv";
 import skillsObject from "../assets/skills.json";
-
-const pSize = {};
 
 export class Stats extends Component {
   constructor(props) {
     super(props);
+    git;
   }
 
   state = { skill: "1" };
