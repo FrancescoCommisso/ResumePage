@@ -1,9 +1,16 @@
 import React, { Component } from "react";
 import "./description.css";
 import "./navbar.css";
+import Scrollchor from "react-scrollchor";
+import Easing from "jquery-easing";
+
 const navStyle = {
   backgroundColor: "#000000",
   borderBottom: "1px solid #2983ff"
+};
+
+const hidden = {
+  top: "-1000000"
 };
 const navLinkStyle = {
   color: "#0983ff",
@@ -35,30 +42,81 @@ export class Navbar extends Component {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <a className="nav-link" href="#">
+              <li>
+                <Scrollchor
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  to="#home-page"
+                  animate={{
+                    offset: 0,
+                    duration: 500,
+                    easing: Easing.easeInBounce
+                  }}
+                  afterAnimate={() => {}}
+                  className="nav-link"
+                >
                   Home
-                </a>
+                </Scrollchor>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
+              <li>
+                <Scrollchor
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  animate={{
+                    offset: 0,
+                    duration: 500,
+                    easing: Easing.easeInOutSine
+                  }}
+                  to="skills"
+                  className="nav-link"
+                >
                   Skills
-                </a>
+                </Scrollchor>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Projects
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
+              <li>
+                <Scrollchor
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  animate={{
+                    offset: 0,
+                    duration: 500,
+                    easing: Easing.easeInOutSine
+                  }}
+                  to="#contact"
+                  className="nav-link"
+                >
                   Contact
-                </a>
+                </Scrollchor>
+              </li>
+              <li>
+                <Scrollchor
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  animate={{
+                    offset: 0,
+                    duration: 500,
+                    easing: Easing.easeInOutSine
+                  }}
+                  to="#about-page"
+                  className="nav-link"
+                >
+                  About
+                </Scrollchor>
+              </li>
+              <li>
+                <Scrollchor
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  animate={{
+                    offset: 0,
+                    duration: 500,
+                    easing: Easing.easeInOutSine
+                  }}
+                  to="#projects-page"
+                  className="nav-link"
+                >
+                  Projects
+                </Scrollchor>
               </li>
             </ul>
           </div>

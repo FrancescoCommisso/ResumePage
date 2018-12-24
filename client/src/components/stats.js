@@ -5,7 +5,6 @@ import skillsObject from "../assets/skills.json";
 export class Stats extends Component {
   constructor(props) {
     super(props);
-    git;
   }
 
   state = { skill: "1" };
