@@ -7,12 +7,9 @@ import {
   ButtonNext
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import { Nav } from "./nav";
-import { Navbar } from "./navbar";
-import { SkillsPage } from "./skillspage";
 import { EducCard } from "./educard";
 
-export class DemoCarousel extends React.Component {
+export class Carousel extends React.Component {
   render() {
     return (
       <CarouselProvider

@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { DemoCarousel } from "./carousel";
+import { Carousel } from "./carousel";
 
 class About extends Component {
-  state = {};
   render() {
     return (
       <div
@@ -21,8 +20,7 @@ class About extends Component {
           <p className="subtitle-text text-light ">
             I enjoy building cool things
           </p>
-
-          <DemoCarousel />
+          <Carousel />
         </div>
       </div>
     );

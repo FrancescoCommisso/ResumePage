@@ -1,6 +1,8 @@
+// HOME PAGE TITLE AND JOB DESCRIPTION
+// WITHOUT BRACKETS SVG
+
 import React, { Component } from "react";
 import "./description.css";
-const imgMyimageexample = require("../assets/bracketsStroke.svg");
 
 export default class Description extends Component {
   state = {

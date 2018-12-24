@@ -1,3 +1,6 @@
+// HOME PAGE TITLE AND JOB DESCRIPTION
+// WITHOUT BRACKETS SVG
+
 import React, { Component } from "react";
 import "./description.css";
 import Scrollchor from "react-scrollchor";

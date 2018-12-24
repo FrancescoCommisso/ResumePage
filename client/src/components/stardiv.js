@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import star from "../assets/Star.svg";
 
-export class Stardiv extends Component {
-  state = {};
+export default class Stardiv extends Component {
   render() {
     var stars = [];
     for (var i = 0; i < this.props.stars; i++) {
@@ -11,5 +10,3 @@ export class Stardiv extends Component {
     return <span className="text-center">{stars}</span>;
   }
 }
-
-export default Stardiv;
