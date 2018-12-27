@@ -20,11 +20,6 @@ const blackStroke = {
 };
 const pinkStroke = {};
 
-function badgeColor(selected) {
-  if (selected) return pinkBadge;
-
-  return blackBadge;
-}
 function strokeColor(selected) {
   if (selected) return blackStroke;
   return pinkStroke;
@@ -35,7 +30,8 @@ export class SkillsCircle extends Component {
     super(props);
     this.state = {
       selected: this.props.selected,
-      id: this.props.id
+      id: this.props.id,
+      size: this.props.size
     };
   }
 
@@ -45,6 +41,20 @@ export class SkillsCircle extends Component {
       id: nextProps.id
     });
   }
+
+  badgeColor = selected => {
+    if (this.state.size == null) {
+      if (selected) return pinkBadge;
+      return blackBadge;
+    } else {
+      return {
+        height: this.state.size,
+        width: this.state.size,
+        margin: "auto",
+        backgroundColor: "#000000"
+      };
+    }
+  };
 
   handleSelectedChange = () => {
     const id = this.state.id;
@@ -57,7 +67,7 @@ export class SkillsCircle extends Component {
       <button
         onClick={this.handleSelectedChange}
         className="mybuttons btn btn-outline-light rounded-circle d-flex text-center align-middle"
-        style={badgeColor(this.props.selected)}
+        style={this.badgeColor(this.props.selected)}
       >
         <img
           style={strokeColor(this.props.selected)}

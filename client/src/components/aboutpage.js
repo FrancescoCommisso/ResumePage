@@ -6,12 +6,12 @@ class About extends Component {
     return (
       <div
         style={{
-          backgroundColor: "#1D1D1D"
+          backgroundColor: "#1D1D1D",
+          height: "800px"
         }}
         className="text-center"
         id="about_root"
       >
-        <br />
         <br />
         <br />
         <a id="about-page" />

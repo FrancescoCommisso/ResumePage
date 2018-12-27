@@ -62,7 +62,11 @@ export class SkillsPage extends Component {
   render() {
     return (
       <div
-        style={{ minHeight: "800px", backgroundColor: "#252627" }}
+        style={{
+          minHeight: "800px",
+          backgroundColor: "#252627",
+          padding: "25px"
+        }}
         id="skillspage_root"
       >
         <br />

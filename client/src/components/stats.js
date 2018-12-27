@@ -18,8 +18,12 @@ export class Stats extends Component {
   render() {
     return (
       <div
-        style={{ backgroundColor: "#000000" }}
-        className="my-5 container-fluid w-75"
+        style={{
+          backgroundColor: "#121213",
+          maxWidth: "920px",
+          padding: "25px"
+        }}
+        className="my-5 mx-auto"
       >
         <div id="stats-title-div" className="text-left">
           <h4 style={{ color: "white" }} className="display-4">
@@ -28,7 +32,7 @@ export class Stats extends Component {
           <Stardiv stars={skillsObject[this.state.skill].experience} />
         </div>
 
-        <div id="stats-desc-div">
+        <div style={{}} id="stats-desc-div">
           <p style={{ color: "white" }} className="lead text-light py-2 my-2">
             {skillsObject[this.state.skill].description}
           </p>

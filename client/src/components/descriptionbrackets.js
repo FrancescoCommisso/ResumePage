@@ -36,7 +36,6 @@ export default class DescriptionBrackets extends Component {
           <h1 className=" d-inline display-4 font-weight-bold  black-red">
             Francesco
           </h1>
-          <h1 className=" d-inline font-weight-bold text-light">,</h1>
           <h1 className=" display-4 font-weight-bold text-light">
             Full Stack
             <br />
