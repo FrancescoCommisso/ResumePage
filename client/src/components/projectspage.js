@@ -15,7 +15,6 @@ class ProjectsPage extends Component {
       >
         <br />
         <br />
-        <br />
         <a id="projects-page" />
         <div className=" my-4 text-center " id="title_div" style={{}}>
           <h1 className="title1  display-4 text-light ">Projects</h1>

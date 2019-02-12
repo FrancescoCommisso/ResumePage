@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./footer.css";
 const linkedInIcon = require("../assets/linkedin.svg");
 const githubIcon = require("../assets/githubGrey.svg");
 
@@ -7,8 +8,11 @@ class Footer extends Component {
   render() {
     return (
       <div style={{ backgroundColor: "#000000", padding: "2px" }}>
-        <img style={{ margin: "5px" }} src={linkedInIcon} />
-        <img style={{ margin: "5px" }} src={githubIcon} />
+        <a href="https://www.github.com/FrancescoCommisso">
+          {" "}
+          <img style={{ margin: "5px" }} src={githubIcon} />
+        </a>
+        <img className="hob" style={{ margin: "5px" }} src={linkedInIcon} />
       </div>
     );
   }
