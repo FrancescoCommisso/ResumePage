@@ -23,7 +23,7 @@ export default class Description extends Component {
       <div>
         <div id="description-root" className="p-lg-5  my-5 text-center">
           <h1 className=" display-4 font-weight-bold text-light">
-            Francesco Commisso, <br />
+            Francesco Commisso <br />
             Full Stack Developer.
           </h1>
           <p className="spaced-out">Front End / Back End / Cloud Solutions</p>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { ProjectCarousel } from "./projectcarousel";
 
 class ProjectsPage extends Component {
   state = {};
@@ -6,21 +7,24 @@ class ProjectsPage extends Component {
     return (
       <div
         style={{
-          height: "800px",
+          overflow: "overlay",
           backgroundColor: "#252627"
         }}
-        className="text-center"
+        className=" container-fluid  text-center"
         id="project_root"
       >
         <br />
         <br />
         <br />
         <a id="projects-page" />
-        <div className="my-4 text-center " id="title_div">
+        <div className=" my-4 text-center " id="title_div" style={{}}>
           <h1 className="title1  display-4 text-light ">Projects</h1>
           <p className="subtitle-text text-light ">
             Cool things I have already built
           </p>
+          <div className=" row text-center">
+            <ProjectCarousel />
+          </div>
         </div>
       </div>
     );

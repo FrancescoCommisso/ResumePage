@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./skillscircle.css";
 
 const style = {
-  height: "100px",
-  width: "100px",
+  height: "80px",
+  width: "80px",
   margin: "auto",
   backgroundColor: "transparent"
 };
