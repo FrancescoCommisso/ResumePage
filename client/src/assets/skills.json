@@ -2,13 +2,13 @@
   "1": {
     "id": "CSS",
     "icon": "assets/csslogo.svg",
-    "description": "Comfortable with writing custom CSS, as well as using third party libraries such as Bootstrap 4.",
+    "description": "Comfortable with writing custom CSS, as well as using third party libraries like Bootstrap.",
     "experience": "3"
   },
   "2": {
     "id": "HTML",
     "icon": "assets/htmllogo.svg",
-    "description": "HTML is HTML... Pretty straight forward.",
+    "description": "Many years experience with HTML and HTML5. Thorough understanding of Document Object Model",
     "experience": "4"
   },
   "3": {
@@ -44,25 +44,25 @@
   "8": {
     "id": "Node.js",
     "icon": "assets/csslogo.svg",
-    "description": "Node.js with Express is my backend environment of choice at the moment.",
+    "description": "Node.js with Express is currently my backend environment of choice.",
     "experience": "3"
   },
   "9": {
     "id": "Java",
     "icon": "assets/csslogo.svg",
-    "description": "Comfortable writing custom CSS classes with eas, and using third party libraries such as BootStrap",
-    "experience": "2"
+    "description": "Experience using Java to write Android applications. Strong understanding of Object Oriented Design.",
+    "experience": "3"
   },
   "10": {
     "id": "Firebase",
     "icon": "assets/csslogo.svg",
-    "description": "Comfortable writing custom CSS classes with eas, and using third party libraries such as BootStrap",
+    "description": "Experience with Firebase Hosting, Storage, RealTime Database, FireStore and Cloud Functions",
     "experience": "4"
   },
   "11": {
     "id": "App Engine",
     "icon": "assets/csslogo.svg",
-    "description": "Comfortable writing custom CSS classes with eas, and using third party libraries such as BootStrap",
+    "description": "Currently learning about Google's App Engine",
     "experience": "1"
   }
 }

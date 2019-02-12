@@ -15,6 +15,8 @@
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.2.0",
+    "react-grid-gallery": "^0.5.3",
+    "react-photo-gallery": "^6.2.2",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.3.1",
     "react-router-hash-link": "^1.2.1",
