@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="323px" height="512px" viewBox="0 0 323 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 26</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-6" transform="translate(-838.000000, -304.000000)">
+            <g id="Group-26" transform="translate(838.000000, 304.000000)">
+                <g id="Group-16">
+                    <g id="Group-12">
+                        <g id="Group-14">
+                            <g id="Group-3" transform="translate(0.000000, 53.000000)" fill="#D8D8D8">
+                                <rect id="Rectangle-6" x="0" y="0" width="323" height="459"></rect>
+                            </g>
+                            <g id="Group-6">
+                                <rect id="Rectangle-26" fill="#F2B9B9" x="0" y="0" width="323" height="53"></rect>
+                                <text id="Current-Hand" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="24" font-weight="300" letter-spacing="0.534601092" fill="#FFFFFF">
+                                    <tspan x="88.9883934" y="36">Current Hand</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <text id="Pot:-3" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="18" font-weight="300" letter-spacing="0.400950819" fill="#4990E2">
+                            <tspan x="10.4511475" y="101">Pot: 3</tspan>
+                        </text>
+                        <text id="Amount-to-Call:-2" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="18" font-weight="300" letter-spacing="0.400950819" fill="#4990E2">
+                            <tspan x="10.073918" y="248">Amount to Call: 2</tspan>
+                        </text>
+                        <text id="Player-at-Action:-Ma" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="18" font-weight="300" letter-spacing="0.400950819" fill="#4990E2">
+                            <tspan x="10.0965902" y="290">Player at Action: Matteo</tspan>
+                        </text>
+                        <text id="Current-Dealer:-Fran" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="18" font-weight="300" letter-spacing="0.400950819" fill="#4990E2">
+                            <tspan x="10.4411148" y="332">Current Dealer: Francesco</tspan>
+                        </text>
+                        <text id="Current-Small-Blind:" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="18" font-weight="300" letter-spacing="0.400950819" fill="#4990E2">
+                            <tspan x="10.1711639" y="374">Current Small Blind: Matteo</tspan>
+                        </text>
+                        <text id="Current-Big-Blind:-D" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="18" font-weight="300" letter-spacing="0.400950819" fill="#4990E2">
+                            <tspan x="10.0896393" y="420">Current Big Blind: Daniele</tspan>
+                        </text>
+                        <text id="Players-in-Hand:-Fra" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="18" font-weight="300" letter-spacing="0.400950819" fill="#4990E2">
+                            <tspan x="10.1777213" y="143">Players in Hand:	Francesco</tspan>
+                            <tspan x="38.2341475" y="164">				Matteo</tspan>
+                            <tspan x="36.7556721" y="185">				Daniele</tspan>
+                            <tspan x="66.5605738" y="206">			Gio</tspan>
+                        </text>
+                    </g>
+                    <rect id="Rectangle-83" fill-opacity="0.586645154" fill="#9B9B9B" x="9" y="443" width="306" height="55"></rect>
+                    <g id="Group-13" transform="translate(22.000000, 451.000000)">
+                        <g id="Group-17">
+                            <g id="Group" transform="translate(72.000000, 0.000000)">
+                                <rect id="Rectangle-7" stroke="#979797" fill="#D8D8D8" x="0" y="0" width="63" height="39"></rect>
+                                <rect id="Rectangle-7" stroke="#979797" fill="#D8D8D8" x="0" y="0" width="63" height="39"></rect>
+                                <text id="Check" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="12" font-weight="300" letter-spacing="0.25" fill="#000000">
+                                    <tspan x="15.062" y="23">Check</tspan>
+                                </text>
+                            </g>
+                            <g id="Group" transform="translate(144.000000, 0.000000)">
+                                <rect id="Rectangle-7" stroke="#979797" fill="#D8D8D8" x="0" y="0" width="63" height="39"></rect>
+                                <rect id="Rectangle-7" stroke="#979797" fill="#D8D8D8" x="0" y="0" width="63" height="39"></rect>
+                                <text id="Call" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="12" font-weight="300" letter-spacing="0.25" fill="#000000">
+                                    <tspan x="22.664" y="24">Call</tspan>
+                                </text>
+                            </g>
+                            <g id="Group" transform="translate(218.000000, 0.000000)">
+                                <rect id="Rectangle-7" stroke="#979797" fill="#D8D8D8" x="0" y="0" width="63" height="39"></rect>
+                                <text id="Raise" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="12" font-weight="300" letter-spacing="0.25" fill="#000000">
+                                    <tspan x="17.174" y="24">Raise</tspan>
+                                </text>
+                            </g>
+                            <g id="Group" transform="translate(0.000000, 1.000000)">
+                                <rect id="Rectangle-7" stroke="#979797" fill="#D8D8D8" x="0" y="0" width="63" height="39"></rect>
+                                <text id="Fold" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="12" font-weight="300" letter-spacing="0.25" fill="#000000">
+                                    <tspan x="21.036" y="24">Fold</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

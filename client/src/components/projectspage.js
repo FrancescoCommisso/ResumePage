@@ -7,13 +7,12 @@ class ProjectsPage extends Component {
     return (
       <div
         style={{
-          overflow: "overlay",
-          backgroundColor: "#252627"
+          backgroundColor: "#252627",
+          minWidth: "500px"
         }}
-        className=" container-fluid  text-center"
+        className=" container-fluid mx-auto text-center"
         id="project_root"
       >
-        <br />
         <br />
         <br />
         <a id="projects-page" />
@@ -22,8 +21,8 @@ class ProjectsPage extends Component {
           <p className="subtitle-text text-light ">
             Cool things I have already built
           </p>
-          <div className=" row text-center">
-            <ProjectCarousel />
+          <div className="row ">
+            <ProjectCarousel className="col" />
           </div>
         </div>
       </div>

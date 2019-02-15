@@ -8,65 +8,66 @@ import {
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import ProjectSlide from "./projectslide";
-const pic = require("../assets/lotspic.png");
-const pic1 = require("../assets/lotspic1.png");
-const pic3 = require("../assets/lotspic3.png");
-const pic4 = require("../assets/lotspic4.png");
-const pic5 = require("../assets/lotspic5.png");
-const pic6 = require("../assets/lotspic6.png");
-const pic7 = require("../assets/lotspic7.png");
-
+const pokerImages = [
+  {
+    src: require("../assets/pokerchip-images/currenthand.svg"),
+    width: 3,
+    height: 5
+  },
+  {
+    src: require("../assets/pokerchip-images/createtable.svg"),
+    width: 3,
+    height: 5
+  },
+  {
+    src: require("../assets/pokerchip-images/raise.svg"),
+    width: 3,
+    height: 5
+  },
+  {
+    src: require("../assets/pokerchip-images/startgame.svg"),
+    width: 3,
+    height: 5
+  }
+];
 const lotsImages = [
   {
-    src: pic7,
-    thumbnail: pic7,
-    thumbnailWidth: 470,
-    thumbnailHeight: 940,
-    caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    src: require("../assets/lotspic7.png"),
+    width: 1,
+    height: 2
   },
   {
-    src: pic6,
-    thumbnail: pic6,
-    thumbnailWidth: 470,
-    thumbnailHeight: 940,
-    caption: "37H (gratispgraphy.com)"
+    src: require("../assets/lotspic6.png"),
+    width: 1,
+    height: 2
   },
   {
-    src: pic5,
-    thumbnail: pic5,
-    thumbnailWidth: 470,
-    thumbnailHeight: 940,
-    caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    src: require("../assets/lotspic5.png"),
+    width: 1,
+    height: 2
   },
   {
-    src: pic4,
-    thumbnail: pic4,
-    thumbnailWidth: 470,
-    thumbnailHeight: 940,
-    caption: "37H (gratispgraphy.com)"
+    src: require("../assets/lotspic4.png"),
+    width: 1,
+    height: 2
   },
   {
-    src: pic3,
-    thumbnail: pic3,
-    thumbnailWidth: 470,
-    thumbnailHeight: 940,
-    caption: "After Rain (Jeshu John - designerspics.com)"
+    src: require("../assets/lotspic3.png"),
+    width: 1,
+    height: 2
   },
   {
-    src: pic1,
-    thumbnail: pic1,
-    thumbnailWidth: 470,
-    thumbnailHeight: 940,
-    caption: "37H (gratispgraphy.com)"
+    src: require("../assets/lotspic1.png"),
+    width: 1,
+    height: 2
   }
-  // {
-  //   src: pic,
-  //   thumbnail: pic,
-  //   thumbnailWidth: 470,
-  //   thumbnailHeight: 940,
-  //   caption: "After Rain (Jeshu John - designerspics.com)"
-  // }
 ];
+
+const lotsTitle = "Lots";
+const lotsSub =
+  "Custom Resource Management Application Built For Royal Building Supplies";
+const lotsDesc =
+  " Lots is a mobile tool that I designed and implemented in my sparetime. It is currently being used by Royal Building Supplies to increase productivity by providing real-time communication between management and their delivery team. Lots is an android application written in Java that uses Google’s Firebase backend services. I am currently still working with Royal Building Supplies to maintain the application and add new features when necessary.";
 
 export class ProjectCarousel extends React.Component {
   render() {
@@ -75,26 +76,36 @@ export class ProjectCarousel extends React.Component {
         className="container-fluid  mx-auto text-center"
         naturalSlideWidth={2}
         naturalSlideHeight={2}
-        totalSlides={3}
+        totalSlides={2}
         cellAlign="center"
       >
-        <div className="row d-flex text-center my-auto mx-auto">
+        <div className="">
           <Slider
-            className="col align-items-center align-self-center d-inline-block"
+            moveThreshold="0.3"
+            className="mx-1"
             style={{ minHeight: "700px", maxHeight: "700px" }}
           >
             <Slide index={0}>
-              <div className="text-center ">
-                <ProjectSlide />
+              <div className="text-center">
+                <ProjectSlide
+                  images={lotsImages}
+                  desc={lotsDesc}
+                  sub={lotsSub}
+                  title={lotsTitle}
+                />
               </div>
             </Slide>
             <Slide index={1}>
-              <div className="text-center ">
-                <ProjectSlide />
+              <div className="text-center">
+                <ProjectSlide
+                  images={pokerImages}
+                  desc={
+                    "PokerChips is a platform independant web app that allows friends to play poker - or any chip based game - without the need for a physical poker set. \n\n This is basically just a fun way for me to hone my server side skills, while also creating something that I know I would enjoy. It is currently being built with Express, React-Redux, Socket.io and Firebase Cloud Functions."
+                  }
+                  sub={"A Virtual Set of Poker Chips"}
+                  title={"PokerChips"}
+                />
               </div>
-            </Slide>
-            <Slide index={2}>
-              <div />
             </Slide>
           </Slider>
         </div>

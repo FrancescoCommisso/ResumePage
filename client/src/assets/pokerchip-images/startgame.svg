@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="323px" height="512px" viewBox="0 0 323 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-6" transform="translate(-2808.000000, -303.000000)">
+            <g id="Group-15" transform="translate(2808.000000, 303.000000)">
+                <g id="Group-8">
+                    <rect id="Rectangle-6" fill="#D8D8D8" x="0" y="53" width="323" height="459"></rect>
+                    <g id="Group-6">
+                        <rect id="Rectangle-26" fill="#F2B9B9" x="0" y="0" width="323" height="53"></rect>
+                        <text id="Assign-Seating-Scree" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="24" font-weight="300" letter-spacing="0.534601092" fill="#FFFFFF">
+                            <tspan x="39.6904423" y="36">Assign Seating Screen</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="Dealer-Selected.-Enj" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="14" font-weight="300" letter-spacing="0.311850637" fill="#4990E2">
+                    <tspan x="52.7334645" y="91">Dealer Selected. Enjoy your game.</tspan>
+                </text>
+                <circle id="Oval-5" stroke="#979797" cx="161.5" cy="256.5" r="38.5"></circle>
+                <circle id="Oval-5" fill="#50E3C2" cx="161.5" cy="171.5" r="10.5"></circle>
+                <circle id="Oval-5" fill="#4990E2" cx="247.5" cy="256.5" r="10.5"></circle>
+                <circle id="Oval-5" fill="#50E3C2" cx="76.5" cy="256.5" r="10.5"></circle>
+                <circle id="Oval-5" stroke="#F6A623" stroke-width="4" fill="#50E3C2" cx="161.5" cy="342.5" r="10.5"></circle>
+                <ellipse id="Oval-5" cx="161.5" cy="256.5" rx="85.5" ry="85.5"></ellipse>
+                <g id="Group" transform="translate(77.000000, 429.000000)">
+                    <rect id="Rectangle-7" stroke="#979797" fill="#D8D8D8" x="0" y="0" width="169" height="40"></rect>
+                    <text id="Start-Game" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="24" font-weight="300" letter-spacing="0.5" fill="#000000">
+                        <tspan x="24.232" y="29">Start Game</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
