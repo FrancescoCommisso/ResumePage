@@ -7,12 +7,19 @@ class Footer extends Component {
   state = {};
   render() {
     return (
-      <div style={{ backgroundColor: "#000000", padding: "2px" }}>
+      <div
+        style={{
+          backgroundColor: "#000000",
+          padding: "2px",
+          minWidth: "500px"
+        }}
+      >
         <a href="https://www.github.com/FrancescoCommisso">
-          {" "}
           <img style={{ margin: "5px" }} src={githubIcon} />
         </a>
-        <img className="hob" style={{ margin: "5px" }} src={linkedInIcon} />
+        <a href="https://www.linkedin.com/in/francesco-commisso-a1b560164/">
+          <img style={{ margin: "5px" }} src={linkedInIcon} />
+        </a>
       </div>
     );
   }

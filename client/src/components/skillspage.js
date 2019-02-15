@@ -65,7 +65,8 @@ export class SkillsPage extends Component {
         style={{
           minHeight: "800px",
           backgroundColor: "#252627",
-          padding: "25px"
+          padding: "25px",
+          minWidth: "500px"
         }}
         id="skillspage_root"
       >

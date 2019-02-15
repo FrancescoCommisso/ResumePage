@@ -13,28 +13,30 @@ class ProjectSlide extends Component {
   }
   render() {
     return (
-      <div
-        className="text-light mx-auto"
-        style={{
-          maxWidth: "900px",
-          padding: "20px",
-          overflow: "overlay",
-          backgroundColor: "#121213"
-        }}
-      >
-        <div className="text-left">
-          <p style={{ fontSize: "2em" }}>{this.state.title}</p>
-          <p style={{ fontSize: "1.5em" }} className="subtitle-text ">
-            {this.state.sub}
-          </p>
+      <div className="" style={{ padding: "10px" }}>
+        <div
+          className="text-light mx-auto"
+          style={{
+            minWidth: "350px",
+            maxWidth: "850px",
+            padding: "30px",
+            backgroundColor: "#121213"
+          }}
+        >
+          <div className="text-left">
+            <p style={{ fontSize: "2em" }}>{this.state.title}</p>
+            <p style={{ fontSize: "1.5em" }} className="subtitle-text ">
+              {this.state.sub}
+            </p>
 
-          <p style={{ fontSize: "1em" }} className="text-light ">
-            {this.state.desc}
-          </p>
-        </div>
-        <div style={{ marginTop: "20px" }} className="row">
-          <div className="col">
-            <Sample photoset={this.state.images} />
+            <p style={{ fontSize: "1em" }} className="text-light ">
+              {this.state.desc}
+            </p>
+          </div>
+          <div style={{ marginTop: "20px" }} className="row">
+            <div className="col">
+              <Sample photoset={this.state.images} />
+            </div>
           </div>
         </div>
       </div>
