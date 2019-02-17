@@ -8,7 +8,7 @@ class ProjectsPage extends Component {
       <div
         style={{
           backgroundColor: "#252627",
-          minWidth: "500px"
+          height: "auto"
         }}
         className=" container-fluid mx-auto text-center"
         id="project_root"

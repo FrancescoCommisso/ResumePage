@@ -13,10 +13,7 @@ export class HomePage extends Component {
       <div>
         <a id="home-page" />
 
-        <div
-          style={{ height: "800px", minWidth: "500px" }}
-          className="background"
-        >
+        <div style={{ height: "800px" }} className="background">
           <div className="front">
             <br />
             <br />

@@ -8,8 +8,7 @@ class ContactPage extends Component {
       <div
         style={{
           height: "800px",
-          backgroundColor: "#1D1D1D",
-          minWidth: "500px"
+          backgroundColor: "#1D1D1D"
         }}
         className="text-center"
         id="contactpage_root"

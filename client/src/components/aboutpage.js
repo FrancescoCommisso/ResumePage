@@ -7,8 +7,7 @@ class About extends Component {
       <div
         style={{
           backgroundColor: "#1D1D1D",
-          height: "800px",
-          minWidth: "500px"
+          height: "800px"
         }}
         className="text-center"
         id="about_root"

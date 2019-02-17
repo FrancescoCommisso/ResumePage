@@ -83,7 +83,7 @@ export class ProjectCarousel extends React.Component {
           <Slider
             moveThreshold="0.3"
             className="mx-1"
-            style={{ minHeight: "700px", maxHeight: "700px" }}
+            style={{ minHeight: "850px" }}
           >
             <Slide index={0}>
               <div className="text-center">
