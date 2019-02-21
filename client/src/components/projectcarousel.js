@@ -73,27 +73,43 @@ export class ProjectCarousel extends React.Component {
   render() {
     return (
       <CarouselProvider
-        className="container-fluid  mx-auto text-center"
+        className="container-fluid mx-auto text-center"
         naturalSlideWidth={2}
         naturalSlideHeight={2}
         totalSlides={2}
         cellAlign="center"
       >
+        <div
+          className="  text-center d-block"
+          style={{
+            position: "absolute",
+            padding: "20px",
+            width: "100%",
+            zIndex: "10",
+            left: "0",
+            bottom: "50%"
+          }}
+        >
+          {/* <ButtonBack className="btn d-block" style={{ float: "left" }}>
+            Back
+          </ButtonBack>
+          <ButtonNext className="btn d-block" style={{ float: "right" }}>
+            Next
+          </ButtonNext> */}
+        </div>
         <div className="">
           <Slider
-            moveThreshold="0.3"
+            moveThreshold="0.1"
             className="mx-1"
             style={{ minHeight: "850px" }}
           >
             <Slide index={0}>
-              <div className="text-center">
-                <ProjectSlide
-                  images={lotsImages}
-                  desc={lotsDesc}
-                  sub={lotsSub}
-                  title={lotsTitle}
-                />
-              </div>
+              <ProjectSlide
+                images={lotsImages}
+                desc={lotsDesc}
+                sub={lotsSub}
+                title={lotsTitle}
+              />
             </Slide>
             <Slide index={1}>
               <div className="text-center">
@@ -109,9 +125,6 @@ export class ProjectCarousel extends React.Component {
             </Slide>
           </Slider>
         </div>
-
-        {/* <ButtonBack>Back</ButtonBack>
-        <ButtonNext>Next</ButtonNext> */}
       </CarouselProvider>
     );
   }

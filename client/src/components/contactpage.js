@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./contact.css";
+import EmailForm from "./emailform";
 
 class ContactPage extends Component {
   state = {};
@@ -22,57 +23,7 @@ class ContactPage extends Component {
           <p className="subtitle-text text-light ">Lets build something cool</p>
         </div>
 
-        <div className="container-fluid my-5">
-          <form
-            style={{ maxWidth: "500px" }}
-            className="row col-sm d-inline-block form-group"
-          >
-            <input
-              type="text"
-              style={{
-                background: "#4A4A4A",
-                borderColor: "#4A4A4A",
-                color: "#FFFFFF",
-                borderRadius: "0"
-              }}
-              className="form-control"
-              id="nameInput"
-              aria-describedby="nameHelp"
-              placeholder="Name"
-            />
-            <input
-              type="email"
-              style={{
-                background: "#4A4A4A",
-                borderColor: "#4A4A4A",
-                color: "#FFFFFF",
-                borderRadius: "0"
-              }}
-              className="form-control my-1"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="Email"
-            />
-            <textarea
-              type="text"
-              rows="8"
-              style={{
-                background: "#4A4A4A",
-                borderColor: "#4A4A4A",
-                color: "#FFFFFF",
-                borderRadius: "0"
-              }}
-              className="form-control"
-              id="exampleInputPassword1"
-              placeholder="Your Email"
-            />
-            <div className="text-right">
-              <button type="submit" className="btn btn-primary my-2">
-                Submit
-              </button>
-            </div>
-          </form>
-        </div>
+        <EmailForm />
       </div>
     );
   }
