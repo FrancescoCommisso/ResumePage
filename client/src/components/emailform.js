@@ -89,7 +89,7 @@ class EmailForm extends Component {
             backgroundColor: "#2983ff"
           }}
         >
-          Thanks For Your Email!
+          Thanks for your email!
         </div>
       );
     } else if (status == 2) {
@@ -103,7 +103,7 @@ class EmailForm extends Component {
             backgroundColor: "#F8196C"
           }}
         >
-          Please Fill Out Every Field!
+          Please fill out every field!
         </div>
       );
     } else if (status == 4) {
