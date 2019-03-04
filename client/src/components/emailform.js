@@ -5,39 +5,44 @@ class EmailForm extends Component {
   constructor() {
     super();
 
-    this.state = { name: "", email: "", text: "", status: "0" }; //status:0 = unsent status:1 = sent-good  status:2 = sent-bad
+    this.state = { name: "", email: "", text: "", status: "0" }; //status:0 = unsent status:1 = sent-good  status:2 = sent-bad stats:4 = sending
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.checkInputs = this.checkInputs.bind(this);
   }
   notifySent(status) {
     if (status == 200) {
-      this.state.status = 1;
+      this.setState({
+        status: 1
+      });
     } else {
-      this.state.status = 2;
-    }
-  }
-  componentDidUpdate(prevProps, prevState) {
-    if (this.state.status == 200) {
+      this.setState({
+        status: 2
+      });
     }
   }
 
   checkInputs() {
-    if (this.state.email.toString.length > 0) {
-      if (this.state.name.toString.length > 0) {
-        if (this.state.text.toString.length > 0) {
+    if (this.state.email.length > 0) {
+      if (this.state.name.length > 0) {
+        if (this.state.text.length > 0) {
           console.log("inputs = true");
           return true;
         }
       }
     }
-    console.log("inputs = false");
+    console.log(
+      "inputs = false" + this.state.email + this.state.name + this.state.text
+    );
     return false;
   }
 
   async handleSubmit(event) {
     event.preventDefault();
-    if (this.checkInputs) {
+    if (this.checkInputs()) {
+      this.setState({
+        status: 4
+      });
       const headers = new Headers();
       headers.append("Content-Type", "application/json");
       const options = {
@@ -52,9 +57,13 @@ class EmailForm extends Component {
       const status = await response.status;
       this.notifySent(status);
     } else {
-      this.setState({ status: 2 });
+      this.setState({
+        status: 2
+      });
     }
   }
+
+  showError() {}
 
   handleInputChange(event) {
     const target = event.target;
@@ -67,23 +76,54 @@ class EmailForm extends Component {
   }
 
   render() {
-    // var status = this.state.status;
-    // let resultDiv;
-    // if (status == 1) {
-    //   resultDiv = (
-    //     <div style={{ visibility: "visible", backgroundColor: "#2983ff" }}>
-    //       Email Sent
-    //     </div>
-    //   );
-    // } else if (status == 2) {
-    //   resultDiv = (
-    //     <div style={{ visibility: "visible", backgroundColor: "#f9186c" }}>
-    //       Email Not Sent
-    //     </div>
-    //   );
-    // } else {
-    //   resultDiv = <div style={{ visibility: "hidden" }}>Email Sent</div>;
-    // }
+    var status = this.state.status;
+    let resultDiv;
+    if (status == 1) {
+      resultDiv = (
+        <div
+          style={{
+            marginTop: "5px",
+            padding: "5px",
+            color: "#ffffff",
+            visibility: "visible",
+            backgroundColor: "#2983ff"
+          }}
+        >
+          Thanks For Your Email!
+        </div>
+      );
+    } else if (status == 2) {
+      resultDiv = (
+        <div
+          style={{
+            marginTop: "5px",
+            padding: "5px",
+            color: "#ffffff",
+            visibility: "visible",
+            backgroundColor: "#F8196C"
+          }}
+        >
+          Please Fill Out Every Field!
+        </div>
+      );
+    } else if (status == 4) {
+      resultDiv = (
+        <div
+          style={{
+            marginTop: "5px",
+            padding: "5px",
+            color: "#ffffff",
+            visibility: "visible",
+            backgroundColor: "#2983ff"
+          }}
+        >
+          Sending Email: Waiting for my Free-Tier Heroku servers to wakeup...
+        </div>
+      );
+    } else {
+      resultDiv = <div style={{ display: "none" }}>Email Sent</div>;
+      const vis = "hidden";
+    }
     return (
       <div className="container-fluid my-5">
         <form
@@ -112,16 +152,20 @@ class EmailForm extends Component {
           <textarea
             type="text"
             rows="8"
-            className="form-control dark-input"
+            className="form-control always-dark"
+            style={{
+              background: "#4a4a4a",
+              color: "#ffffff"
+            }}
             id="bodyInput"
             name="text"
             onChange={this.handleInputChange}
             placeholder="Your Email"
           />
 
-          <div className="text-right">
-            {resultDiv}
+          {resultDiv}
 
+          <div className="text-right">
             <button className="btn btn-primary my-2">Submit</button>
           </div>
         </form>
