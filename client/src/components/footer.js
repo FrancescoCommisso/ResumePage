@@ -10,8 +10,7 @@ class Footer extends Component {
       <div
         style={{
           backgroundColor: "#000000",
-          padding: "2px",
-          minWidth: "500px"
+          padding: "2px"
         }}
       >
         <a href="https://www.github.com/FrancescoCommisso">

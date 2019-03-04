@@ -17,7 +17,6 @@ class ProjectSlide extends Component {
         <div
           className="text-light mx-auto"
           style={{
-            minWidth: "350px",
             maxWidth: "850px",
             padding: "30px",
             backgroundColor: "#121213"
