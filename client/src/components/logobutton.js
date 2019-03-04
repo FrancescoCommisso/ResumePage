@@ -12,7 +12,8 @@ export class LogoButton extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      id: this.props.skillID
+      id: this.props.skillID,
+      margins: this.props.margins
     };
   }
 

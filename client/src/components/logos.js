@@ -44,6 +44,7 @@ export class Logos extends Component {
             <LogoButton
               icon={logo.logo}
               onSelected={this.props.onSelected}
+              margins={this.props.margins}
               skillID={logo.id}
               key={logo.id}
             />
