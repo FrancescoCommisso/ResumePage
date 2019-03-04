@@ -18,6 +18,7 @@ class ProjectSlide extends Component {
           className="text-light mx-auto"
           style={{
             maxWidth: "850px",
+            minHeight: "800px",
             padding: "30px",
             backgroundColor: "#121213"
           }}
