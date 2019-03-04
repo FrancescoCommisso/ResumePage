@@ -1,25 +1,49 @@
 import React, { Component } from "react";
 import "./footer.css";
+import { Logos } from "./logos";
 const linkedInIcon = require("../assets/linkedin.svg");
 const githubIcon = require("../assets/githubGrey.svg");
-const je = 0;
+
+const footerIcons = [
+  { logo: linkedInIcon, id: "1" },
+  { logo: githubIcon, id: "2" }
+];
+
 class Footer extends Component {
   state = {};
   render() {
     return (
       <div
-        className="text-center"
+        className="text-center container-fluid "
         style={{
+          position: "relative",
           backgroundColor: "#000000",
-          padding: "2px"
+          padding: "2px",
+          color: "#ffffff"
         }}
       >
-        <a href="https://www.github.com/FrancescoCommisso">
-          <img className="footimg mx-1 my-1" src={githubIcon} />
-        </a>
-        <a href="https://www.linkedin.com/in/francesco-commisso-a1b560164/">
-          <img className="footimg mx-1 my-1" src={linkedInIcon} />
-        </a>
+        <div>
+          <div className="my-2 mx-2 d-inline align-middle">
+            <a href="https://www.github.com/FrancescoCommisso">
+              <img
+                className="my-2 mx-2"
+                style={{ height: "30px" }}
+                src={githubIcon}
+              />
+            </a>
+
+            <div className="my-2 mx-2  d-inline align-middle">
+              Francesco Commisso © 2018
+            </div>
+            <a href="https://www.linkedin.com/in/francesco-commisso-a1b560164/">
+              <img
+                className="my-2 mx-2"
+                style={{ height: "30px" }}
+                src={linkedInIcon}
+              />
+            </a>
+          </div>
+        </div>
       </div>
     );
   }
