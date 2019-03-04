@@ -22,37 +22,28 @@ class Footer extends Component {
           color: "#ffffff"
         }}
       >
-        <span
-          className="my-2  d-inline align-middle"
-          style={{
-            position: "absolute",
-            left: "60",
-            padding: "1px",
-            right: "0",
-            fontSize: "16px",
-            top: "0",
-            bottom: "0",
-            zIndex: "3"
-          }}
-        >
-          Francesco Commisso © 2018
-        </span>
+        <div>
+          <div className="my-2 mx-2 d-inline align-middle">
+            <a href="https://www.github.com/FrancescoCommisso">
+              <img
+                className="my-2 mx-2"
+                style={{ height: "30px" }}
+                src={githubIcon}
+              />
+            </a>
 
-        <Logos logos={footerIcons} margins={0} />
-        {/* <div className="row ">
-          <a
-            className="d-inline-block col-1 mx-1 my-1"
-            href="https://www.github.com/FrancescoCommisso"
-          >
-            <img style={{ height: "30px" }} src={githubIcon} />
-          </a>
-          <a
-            className="d-inline-block col-1 mx-1 my-1"
-            href="https://www.linkedin.com/in/francesco-commisso-a1b560164/"
-          >
-            <img style={{ height: "30px" }} src={linkedInIcon} />
-          </a>
-        </div> */}
+            <div className="my-2 mx-2  d-inline align-middle">
+              Francesco Commisso © 2018
+            </div>
+            <a href="https://www.linkedin.com/in/francesco-commisso-a1b560164/">
+              <img
+                className="my-2 mx-2"
+                style={{ height: "30px" }}
+                src={linkedInIcon}
+              />
+            </a>
+          </div>
+        </div>
       </div>
     );
   }
