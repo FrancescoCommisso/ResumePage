@@ -67,23 +67,23 @@ class EmailForm extends Component {
   }
 
   render() {
-    var status = this.state.status;
-    let resultDiv;
-    if (status == 1) {
-      resultDiv = (
-        <div style={{ visibility: "visible", backgroundColor: "#2983ff" }}>
-          Email Sent
-        </div>
-      );
-    } else if (status == 2) {
-      resultDiv = (
-        <div style={{ visibility: "visible", backgroundColor: "#f9186c" }}>
-          Email Not Sent
-        </div>
-      );
-    } else {
-      resultDiv = <div style={{ visibility: "hidden" }}>Email Sent</div>;
-    }
+    // var status = this.state.status;
+    // let resultDiv;
+    // if (status == 1) {
+    //   resultDiv = (
+    //     <div style={{ visibility: "visible", backgroundColor: "#2983ff" }}>
+    //       Email Sent
+    //     </div>
+    //   );
+    // } else if (status == 2) {
+    //   resultDiv = (
+    //     <div style={{ visibility: "visible", backgroundColor: "#f9186c" }}>
+    //       Email Not Sent
+    //     </div>
+    //   );
+    // } else {
+    //   resultDiv = <div style={{ visibility: "hidden" }}>Email Sent</div>;
+    // }
     return (
       <div className="container-fluid my-5">
         <form
