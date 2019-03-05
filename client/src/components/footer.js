@@ -33,7 +33,7 @@ class Footer extends Component {
             </a>
 
             <div className="my-2 mx-2 footimg d-inline align-middle">
-              Francesco Commisso © 2018
+              Francesco Commisso © 2019
             </div>
             <a href="https://www.linkedin.com/in/francesco-commisso-a1b560164/">
               <img
