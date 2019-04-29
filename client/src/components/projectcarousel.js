@@ -30,6 +30,23 @@ const pokerImages = [
     height: 5
   }
 ];
+const watchlistImages = [
+  {
+    src: require("../assets/watchlist1.png"),
+    width: 1436,
+    height: 2422
+  },
+  {
+    src: require("../assets/watchlist2.png"),
+    width: 1436,
+    height: 2422
+  },
+  {
+    src: require("../assets/watchlist3.png"),
+    width: 1436,
+    height: 2422
+  }
+];
 const lotsImages = [
   {
     src: require("../assets/lotspic7.png"),
@@ -76,7 +93,7 @@ export class ProjectCarousel extends React.Component {
         className="container-fluid mx-auto text-center"
         naturalSlideWidth={2}
         naturalSlideHeight={2}
-        totalSlides={2}
+        totalSlides={3}
         cellAlign="center"
       >
         <div
@@ -112,6 +129,18 @@ export class ProjectCarousel extends React.Component {
               />
             </Slide>
             <Slide index={1}>
+              <div className="text-center">
+                <ProjectSlide
+                  images={watchlistImages}
+                  desc={
+                    "The Watchlist was originally a small project for me and my friend, Josh Isaac, to play around with API's. And it has now trasnformed into a full fledged web application, complete with user-authentication and management. "
+                  }
+                  sub={"A Tool To Orgainze My Movie Addiction"}
+                  title={"The Watchlist"}
+                />
+              </div>
+            </Slide>
+            <Slide index={2}>
               <div className="text-center">
                 <ProjectSlide
                   images={pokerImages}

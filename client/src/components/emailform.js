@@ -117,7 +117,8 @@ class EmailForm extends Component {
             backgroundColor: "#2983ff"
           }}
         >
-          Sending Email: Waiting for my Free-Tier Heroku servers to wakeup...
+          Sending Email: Waiting for my Free-Tier Heroku servers to wake up...
+          😴😴😴
         </div>
       );
     } else {
@@ -160,7 +161,7 @@ class EmailForm extends Component {
             id="bodyInput"
             name="text"
             onChange={this.handleInputChange}
-            placeholder="Your Email"
+            placeholder="Your Message"
           />
 
           {resultDiv}
