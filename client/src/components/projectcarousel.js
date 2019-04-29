@@ -107,12 +107,28 @@ export class ProjectCarousel extends React.Component {
             bottom: "50%"
           }}
         >
-          {/* <ButtonBack className="btn d-block" style={{ float: "left" }}>
-            Back
+          <ButtonBack
+            className="btn d-block"
+            style={{
+              borderRadius: "50%",
+              float: "left",
+              width: "50px",
+              height: "50px"
+            }}
+          >
+            {"<"}
           </ButtonBack>
-          <ButtonNext className="btn d-block" style={{ float: "right" }}>
-            Next
-          </ButtonNext> */}
+          <ButtonNext
+            className="btn d-block"
+            style={{
+              borderRadius: "50%",
+              float: "right",
+              width: "50px",
+              height: "50px"
+            }}
+          >
+            {">"}
+          </ButtonNext>
         </div>
         <div className="">
           <Slider
