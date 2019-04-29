@@ -39,7 +39,7 @@ export class Logos extends Component {
         className="container-fluid  my-5  w-75  text-center"
         id="logos_root"
       >
-        <div className="row bg-infoalign-baseline">
+        <div className="row align-baseline">
           {this.props.logos.map(logo => (
             <LogoButton
               icon={logo.logo}
