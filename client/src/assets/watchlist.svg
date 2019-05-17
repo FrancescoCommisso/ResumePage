@@ -1,27 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="489px" height="327px" viewBox="0 0 489 327" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="208px" height="139px" viewBox="0 0 208 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 4</title>
+    <title>Group 15</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-4">
-            <rect id="Rectangle-176" fill="#1F191C" x="0" y="0" width="489" height="327"></rect>
-            <g id="Group-3" transform="translate(183.000000, 245.000000)">
-                <rect id="Rectangle-177" fill="#AA47CE" x="0" y="0" width="123" height="30" rx="3"></rect>
-                <text id="Browse-Movies" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" letter-spacing="0.0905900598" fill="#FFFFFF">
-                    <tspan x="12.9541646" y="20">Browse Movies</tspan>
-                </text>
-            </g>
-            <g id="Group-2" transform="translate(113.000000, 103.000000)" fill="#FFFFFF">
-                <text id="Remember-that-new--m" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" letter-spacing="0.0905900598">
-                    <tspan x="7.87737892" y="53">Remember that new  movie your friend </tspan>
-                    <tspan x="6.89078886" y="69">told you to watch? Probably not. Never </tspan>
-                    <tspan x="8.13678886" y="85">forget to watch a movie again with The </tspan>
-                    <tspan x="101.941345" y="101">Watchlist</tspan>
-                </text>
-                <text id="The-Watchlist" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold" letter-spacing="0.15529725">
-                    <tspan x="52.4585679" y="23">The Watchlist</tspan>
+        <g id="Artboard-40" transform="translate(-2652.000000, -442.000000)">
+            <g id="Group-15" transform="translate(2652.000000, 442.000000)">
+                <g id="Group-23">
+                    <g id="Group-14">
+                        <g id="Group-4">
+                            <rect id="Rectangle-176" fill="#1F191C" x="0" y="0" width="208" height="139"></rect>
+                            <g id="Group-3" transform="translate(75.288344, 101.593272)">
+                                <rect id="Rectangle-177" fill="#AA47CE" x="0" y="0" width="52.3190184" height="12.7522936" rx="3"></rect>
+                                <text id="Browse-Movies" font-family="HelveticaNeue, Helvetica Neue" font-size="5.94671407" font-weight="normal" letter-spacing="0.0905900598" fill="#FFFFFF">
+                                    <tspan x="5.20020476" y="8.97553517">Browse Movies</tspan>
+                                </text>
+                            </g>
+                            <g id="Group-2" transform="translate(70.184049, 14.877676)" font-size="10.194367" font-family="HelveticaNeue-Bold, Helvetica Neue" letter-spacing="0.15529725" fill="#FFFFFF" font-weight="bold">
+                                <text id="The-Watchlist">
+                                    <tspan x="-0.339062676" y="10">The Watchlist</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Group-11" transform="translate(74.012270, 45.483180)">
+                            <g id="Group-2" fill="#D778FF">
+                                <path d="M37.1269156,10.1421043 L53.7076206,0.858825839 C54.6686475,0.320761816 55.4477138,0.779563411 55.4477138,1.8884578 L55.4477138,30.7047868 C55.4477138,31.8115008 54.660492,32.2679166 53.7076206,31.7344187 L37.1269156,22.4511398 L37.1269156,10.1421043 Z" id="Polygon-1"></path>
+                                <rect id="Rectangle-14" x="0" y="2.20039575" width="34.2150007" height="28.6051448" rx="1"></rect>
+                            </g>
+                            <g id="Group-2" transform="translate(3.859729, 4.950890)" fill="#B118F2">
+                                <path d="M37.1269156,10.1421043 L53.7076206,0.858825839 C54.6686475,0.320761816 55.4477138,0.779563411 55.4477138,1.8884578 L55.4477138,30.7047868 C55.4477138,31.8115008 54.660492,32.2679166 53.7076206,31.7344187 L37.1269156,22.4511398 L37.1269156,10.1421043 Z" id="Polygon-1"></path>
+                                <rect id="Rectangle-14" x="0" y="2.20039575" width="34.2150007" height="28.6051448" rx="1"></rect>
+                            </g>
+                            <g id="Group-6" transform="translate(8.822237, 10.451880)" fill="#6F0699">
+                                <rect id="Rectangle-173" x="7.16806786" y="0" width="17.6444747" height="4.40079151" rx="2"></rect>
+                                <rect id="Rectangle-173" x="0" y="0" width="5.51389836" height="4.40079151" rx="2"></rect>
+                                <rect id="Rectangle-173" x="7.16806786" y="12.1021767" width="17.6444747" height="4.40079151" rx="2"></rect>
+                                <rect id="Rectangle-173" x="0" y="12.1021767" width="5.51389836" height="4.40079151" rx="2"></rect>
+                                <rect id="Rectangle-173" x="0" y="6.05108833" width="24.8125426" height="4.40079151" rx="2"></rect>
+                                <rect id="Rectangle-173" x="0" y="18.153265" width="24.8125426" height="4.40079151" rx="2"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <text id="Remembering-Things-I" font-family="HelveticaNeue, Helvetica Neue" font-size="5.94671407" font-weight="normal" letter-spacing="0.0905900598" fill="#FFFFFF">
+                    <tspan x="55.6992044" y="36.6055046">Remembering Things Is For Losers</tspan>
                 </text>
             </g>
         </g>

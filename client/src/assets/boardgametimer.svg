@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="489px" height="327px" viewBox="0 0 489 327" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 4</title>
+    <title>Group 17</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-5" transform="translate(-367.000000, -792.000000)">
-            <g id="Group-4" transform="translate(367.000000, 792.000000)">
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-40" transform="translate(-2054.000000, -405.000000)">
+            <g id="Group-17" transform="translate(2054.000000, 405.000000)">
                 <rect id="Rectangle-176" fill="#1F191C" x="0" y="0" width="489" height="327"></rect>
                 <g id="Group-3" transform="translate(95.000000, 244.000000)">
                     <rect id="Rectangle-177" fill="#177E89" x="0" y="0" width="123" height="30" rx="3"></rect>
@@ -64,14 +64,12 @@
                         </g>
                     </g>
                 </g>
-                <g id="Group-2" transform="translate(55.000000, 20.000000)" fill="#FFFFFF">
-                    <text id="Better-than-the-one-" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" letter-spacing="0.0905900598">
-                        <tspan x="0.103264014" y="41">Better than the one in your phone</tspan>
-                    </text>
-                    <text id="BoardGame-Timer" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold" letter-spacing="0.15529725">
-                        <tspan x="0.435270628" y="23">BoardGame Timer</tspan>
-                    </text>
-                </g>
+                <text id="Better-than-the-one-" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" letter-spacing="0.0905900598" fill="#FFFFFF">
+                    <tspan x="138.103264" y="64">Better than the one in your phone</tspan>
+                </text>
+                <text id="Board-Game-Timer" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold" letter-spacing="0.15529725" fill="#FFFFFF">
+                    <tspan x="136.021622" y="43">Board Game Timer</tspan>
+                </text>
             </g>
         </g>
     </g>

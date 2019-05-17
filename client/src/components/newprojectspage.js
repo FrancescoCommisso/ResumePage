@@ -23,7 +23,7 @@ class NewProjects extends Component {
               <ProductCard
                 photos={[bgt]}
                 productName="Cloud Timer"
-                description="Allows people to create a timer that can be started or stopped from any device."
+                description="Allows people to create and share a virtual timer that can be controlled from any device."
                 rating={5}
                 url="https://boardgametimer.herokuapp.com"
               />
@@ -32,16 +32,16 @@ class NewProjects extends Component {
               <ProductCard
                 photos={[lots]}
                 productName="Lots"
-                description="An Android project management application I built for Royal Building Supply."
+                description="A project management application built for Royal Building Supply."
                 rating={5}
-                url="https://github.com/nukeop"
+                url=""
               />
             </Col>
             <Col className="mx-auto">
               <ProductCard
                 photos={[watch]}
                 productName="The Watchlist"
-                description="Allows people to build and share lists of movies they want to see in the future."
+                description="Allows people to build and share lists of movies they want to see."
                 rating={5}
                 url="https://the-watchlist.herokuapp.com/"
               />
