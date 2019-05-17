@@ -19,7 +19,6 @@ class App extends Component {
           <Navbar />
           <HomePage />
           <SkillsPage />
-          <About />
 
           <NewProjects />
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="489px" height="327px" viewBox="0 0 489 327" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 17</title>
+    <title>Group 20</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-40" transform="translate(-2054.000000, -405.000000)">
-            <g id="Group-17" transform="translate(2054.000000, 405.000000)">
-                <rect id="Rectangle-176" fill="#1F191C" x="0" y="0" width="489" height="327"></rect>
+        <g id="Artboard-40" transform="translate(-2054.000000, -348.000000)">
+            <g id="Group-20" transform="translate(2054.000000, 348.000000)">
+                <rect id="Rectangle-176" fill="#000000" x="0" y="0" width="489" height="327"></rect>
                 <g id="Group-3" transform="translate(95.000000, 244.000000)">
                     <rect id="Rectangle-177" fill="#177E89" x="0" y="0" width="123" height="30" rx="3"></rect>
                     <text id="New-Game" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" letter-spacing="0.0905900598" fill="#FFFFFF">
@@ -20,7 +20,7 @@
                         <tspan x="26.7293447" y="20">Find Game</tspan>
                     </text>
                 </g>
-                <g id="Group-16" transform="translate(95.000000, 81.000000)">
+                <g id="Group-16" transform="translate(96.000000, 84.000000)">
                     <g id="Group" transform="translate(254.993122, 36.712500)">
                         <rect id="Rectangle-72" fill="#177E89" x="0" y="0" width="43.5955983" height="55.6875" rx="13"></rect>
                         <g id="Group-13" transform="translate(4.524072, 8.662500)">

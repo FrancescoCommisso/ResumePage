@@ -88,7 +88,7 @@ export class Navbar extends Component {
                   Contact
                 </Scrollchor>
               </li>
-              <li>
+              {/* <li>
                 <Scrollchor
                   data-toggle="collapse"
                   data-target="#navbarSupportedContent"
@@ -102,7 +102,7 @@ export class Navbar extends Component {
                 >
                   About
                 </Scrollchor>
-              </li>
+              </li> */}
               <li>
                 <Scrollchor
                   data-toggle="collapse"

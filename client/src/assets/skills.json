@@ -9,19 +9,19 @@
     "id": "HTML",
     "icon": "assets/htmllogo.svg",
     "description": "Many years experience with HTML and HTML5. Thorough understanding of Document Object Model",
-    "experience": "4"
+    "experience": "3"
   },
   "3": {
     "id": "Javascript",
     "icon": "assets/csslogo.svg",
     "description": "Thorough understanding of Javascript and ES6 design patterns.",
-    "experience": "3"
+    "experience": "4"
   },
   "4": {
     "id": "React",
     "icon": "assets/csslogo.svg",
     "description": "Comfortable using React to build interactive frontends with modular components. Usually use third party tools like Redux to better manage my components' states.",
-    "experience": "3"
+    "experience": "4"
   },
   "5": {
     "id": "Angular",
@@ -45,7 +45,7 @@
     "id": "Node.js",
     "icon": "assets/csslogo.svg",
     "description": "Node.js with Express is currently my backend environment of choice.",
-    "experience": "3"
+    "experience": "4"
   },
   "9": {
     "id": "Java",
@@ -57,12 +57,19 @@
     "id": "Firebase",
     "icon": "assets/csslogo.svg",
     "description": "Experience with Firebase Hosting, Storage, RealTime Database, FireStore and Cloud Functions",
-    "experience": "4"
+    "experience": "3"
   },
+
   "11": {
     "id": "App Engine",
     "icon": "assets/csslogo.svg",
     "description": "Currently learning about Google's App Engine",
     "experience": "1"
+  },
+  "12": {
+    "id": "Heroku",
+    "icon": "assets/heroku.png",
+    "description": "Heroku has quickly become my favourite platform to deploy React/Express progressive web apps",
+    "experience": "4"
   }
 }

@@ -15,6 +15,7 @@ import nodeLogo from "../assets/nodelogo.svg";
 import javaLogo from "../assets/javalogo.svg";
 import appengineLogo from "../assets/appenginelogo.svg";
 import firebaseLogo from "../assets/firebase.svg";
+import herokuLogo from "../assets/heroku.png";
 
 const frontEndLogos = [
   { logo: htmlLogo, id: "2" },
@@ -27,7 +28,8 @@ const frontEndLogos = [
 const backEndLogos = [{ logo: nodeLogo, id: "8" }, { logo: javaLogo, id: "9" }];
 const cloudLogos = [
   { logo: firebaseLogo, id: "10" },
-  { logo: appengineLogo, id: "11" }
+  { logo: appengineLogo, id: "11" },
+  { logo: herokuLogo, id: "12" }
 ];
 
 export class SkillsPage extends Component {

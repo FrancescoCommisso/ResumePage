@@ -8,8 +8,7 @@ class ContactPage extends Component {
     return (
       <div
         style={{
-          height: "800px",
-          backgroundColor: "#1D1D1D"
+          height: "800px"
         }}
         className="text-center"
         id="contactpage_root"

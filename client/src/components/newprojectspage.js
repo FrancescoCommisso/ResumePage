@@ -9,7 +9,11 @@ class NewProjects extends Component {
   state = {};
   render() {
     return (
-      <div>
+      <div
+        style={{
+          backgroundColor: "#1D1D1D"
+        }}
+      >
         <br />
         <br />
         <br />
@@ -23,7 +27,7 @@ class NewProjects extends Component {
               <ProductCard
                 photos={[bgt]}
                 productName="Cloud Timer"
-                description="Allows people to create and share a virtual timer that can be controlled from any device."
+                description="Create and share a virtual timer that can be controlled from any device."
                 rating={5}
                 url="https://boardgametimer.herokuapp.com"
               />
@@ -41,7 +45,7 @@ class NewProjects extends Component {
               <ProductCard
                 photos={[watch]}
                 productName="The Watchlist"
-                description="Allows people to build and share lists of movies they want to see."
+                description="Allows users to build and share lists of movies they want to see."
                 rating={5}
                 url="https://the-watchlist.herokuapp.com/"
               />

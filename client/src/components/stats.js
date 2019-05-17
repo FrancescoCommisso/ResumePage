@@ -20,7 +20,7 @@ export class Stats extends Component {
     return (
       <div
         style={{
-          backgroundColor: "#121213",
+          backgroundColor: "#000000",
           maxWidth: "920px",
           padding: "25px"
         }}

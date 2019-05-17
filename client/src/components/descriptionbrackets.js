@@ -42,9 +42,9 @@ export default class DescriptionBrackets extends Component {
             Developer.
           </h1>
           <p className="spaced-out ">Front End / Back End / Cloud Solutions</p>
-          <Scrollchor to="#contact" class="btn whiteBTN">
+          {/* <Scrollchor to="#contact" class="btn whiteBTN">
             Contact Me
-          </Scrollchor>
+          </Scrollchor> */}
         </div>
         <div className="text-center">
           <h5 style={{ opacity: ".5" }} className="text-light">

@@ -10,7 +10,7 @@
                 <g id="Group-23">
                     <g id="Group-14">
                         <g id="Group-4">
-                            <rect id="Rectangle-176" fill="#1F191C" x="0" y="0" width="208" height="139"></rect>
+                            <rect id="Rectangle-176" fill="#000000" x="0" y="0" width="208" height="139"></rect>
                             <g id="Group-3" transform="translate(75.288344, 101.593272)">
                                 <rect id="Rectangle-177" fill="#AA47CE" x="0" y="0" width="52.3190184" height="12.7522936" rx="3"></rect>
                                 <text id="Browse-Movies" font-family="HelveticaNeue, Helvetica Neue" font-size="5.94671407" font-weight="normal" letter-spacing="0.0905900598" fill="#FFFFFF">
@@ -23,7 +23,7 @@
                                 </text>
                             </g>
                         </g>
-                        <g id="Group-11" transform="translate(74.012270, 45.483180)">
+                        <g id="Group-11" transform="translate(74.000000, 49.000000)">
                             <g id="Group-2" fill="#D778FF">
                                 <path d="M37.1269156,10.1421043 L53.7076206,0.858825839 C54.6686475,0.320761816 55.4477138,0.779563411 55.4477138,1.8884578 L55.4477138,30.7047868 C55.4477138,31.8115008 54.660492,32.2679166 53.7076206,31.7344187 L37.1269156,22.4511398 L37.1269156,10.1421043 Z" id="Polygon-1"></path>
                                 <rect id="Rectangle-14" x="0" y="2.20039575" width="34.2150007" height="28.6051448" rx="1"></rect>
