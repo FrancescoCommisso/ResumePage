@@ -16,6 +16,7 @@ import javaLogo from "../assets/javalogo.svg";
 import appengineLogo from "../assets/appenginelogo.svg";
 import firebaseLogo from "../assets/firebase.svg";
 import herokuLogo from "../assets/heroku.png";
+import phpLogo from "../assets/php.svg";
 
 const frontEndLogos = [
   { logo: htmlLogo, id: "2" },
@@ -25,7 +26,11 @@ const frontEndLogos = [
   { logo: sketchLogo, id: "6" },
   { logo: aiLogo, id: "7" }
 ];
-const backEndLogos = [{ logo: nodeLogo, id: "8" }, { logo: javaLogo, id: "9" }];
+const backEndLogos = [
+  { logo: nodeLogo, id: "8" },
+  { logo: javaLogo, id: "9" },
+  { logo: phpLogo, id: "13" }
+];
 const cloudLogos = [
   { logo: firebaseLogo, id: "10" },
   { logo: appengineLogo, id: "11" },

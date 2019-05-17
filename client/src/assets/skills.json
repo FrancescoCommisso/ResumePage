@@ -71,5 +71,11 @@
     "icon": "assets/heroku.png",
     "description": "Heroku has quickly become my favourite platform to deploy React/Express progressive web apps",
     "experience": "4"
+  },
+  "13": {
+    "id": "PHP",
+    "icon": "assets/php.svg",
+    "description": "Some experience using PHP, mostly to create Wordpress themes.",
+    "experience": "2"
   }
 }

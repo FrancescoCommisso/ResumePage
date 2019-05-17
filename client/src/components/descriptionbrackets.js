@@ -39,7 +39,7 @@ export default class DescriptionBrackets extends Component {
           <h1 className=" display-4 font-weight-bold text-light">
             Full Stack
             <br />
-            Developer.
+            Developer
           </h1>
           <p className="spaced-out ">Front End / Back End / Cloud Solutions</p>
           {/* <Scrollchor to="#contact" class="btn whiteBTN">
