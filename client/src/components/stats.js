@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Stardiv from "./stardiv";
 import skillsObject from "../assets/skills.json";
+import "./main.css";
 
 export class Stats extends Component {
   constructor(props) {
@@ -23,7 +24,7 @@ export class Stats extends Component {
           maxWidth: "920px",
           padding: "25px"
         }}
-        className="my-5 mx-auto"
+        className="my-5 mx-auto info"
       >
         <div id="stats-title-div" className="text-left">
           <h4 style={{ color: "white" }} className="display-4">

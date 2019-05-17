@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { SkillsCircle } from "./skillscircle";
+import "./main.css";
 
 export class AboutCards extends Component {
   constructor(props) {
@@ -22,7 +23,7 @@ export class AboutCards extends Component {
           className="row"
         >
           <div
-            className="col mx-auto"
+            className="col mx-auto info "
             style={{
               margin: "10px",
               height: "500px",

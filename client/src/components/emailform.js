@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./emailform.css";
+import "./main.css";
 
 class EmailForm extends Component {
   constructor() {
@@ -135,7 +136,7 @@ class EmailForm extends Component {
           <input
             type="text"
             onChange={this.handleInputChange}
-            className="form-control dark-input"
+            className="form-control dark-input info "
             id="nameInput"
             name="name"
             aria-describedby="nameHelp"
@@ -143,7 +144,7 @@ class EmailForm extends Component {
           />
           <input
             type="email"
-            className="form-control my-1 dark-input "
+            className="form-control my-1 dark-input info"
             id="emailInput"
             name="email"
             onChange={this.handleInputChange}

@@ -8,6 +8,8 @@ import Footer from "./components/footer";
 import ContactPage from "./components/contactpage";
 import About from "./components/aboutpage";
 import ProjectsPage from "./components/projectspage";
+import ProjectTile from "./components/projecttile";
+import NewProjects from "./components/newprojectspage";
 
 class App extends Component {
   render() {
@@ -18,7 +20,9 @@ class App extends Component {
           <HomePage />
           <SkillsPage />
           <About />
-          <ProjectsPage />
+
+          <NewProjects />
+
           <ContactPage />
           <Footer />
         </div>

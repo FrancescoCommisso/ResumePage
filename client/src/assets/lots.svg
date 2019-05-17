@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="489px" height="327px" viewBox="0 0 489 327" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-40" transform="translate(-1164.000000, -406.000000)">
+            <g id="Group-5" transform="translate(1164.000000, 406.000000)">
+                <g id="Group-4">
+                    <rect id="Rectangle-176" fill="#1F191C" x="0" y="0" width="489" height="327"></rect>
+                    <g id="Group-2" transform="translate(202.000000, 20.000000)" font-size="24" font-family="HelveticaNeue-Bold, Helvetica Neue" letter-spacing="0.15529725" fill="#FFFFFF" font-weight="bold">
+                        <text id="L-O-T-S">
+                            <tspan x="0.876459627" y="23">L O T S</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="V-1.4" font-family="HelveticaNeue, Helvetica Neue" font-size="24" font-weight="normal" letter-spacing="0.15529725" fill="#FFFFFF">
+                    <tspan x="217.263757" y="282">V 1.4</tspan>
+                </text>
+                <g id="Group-22" transform="translate(176.000000, 84.000000)">
+                    <circle id="Oval-435" fill="#B548C4" cx="69" cy="69" r="69"></circle>
+                    <circle id="Oval-435" stroke="#979797" fill="#26A665" cx="69" cy="69" r="44.1871921"></circle>
+                    <circle id="Oval-435" stroke="#979797" fill="#B548C4" cx="69.1699507" cy="69.1699507" r="19.2044335"></circle>
+                    <circle id="Oval-435" stroke="#979797" fill="#33AE72" cx="69.1699507" cy="69.1699507" r="11.3866995"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
